@@ -62,7 +62,7 @@ input,
 textarea {
   width: 95%;
   max-width: 95%;
-  padding: 0.7em;
+  padding: 0.7em 0.2em;
   border: 2px solid #48c6ef;
   border-radius: 1em;
   margin-bottom: 1em;
@@ -138,6 +138,78 @@ button[type="submit"]:focus {
   outline-offset: 2px;
 }
 
+.updateCallout {
+  background: linear-gradient(135deg, #e6fffa 0%, #f0fff4 100%);
+  border: 1px solid #9ae6b4;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 24px;
+}
+
+.updateCallout h3 {
+  margin: 0 0 8px 0;
+  color: #22543d;
+  font-size: 18px;
+}
+
+.updateCallout p {
+  margin: 0;
+  color: #2f855a;
+}
+
+.changelogButton {
+  position: relative;
+  background: #3182ce;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.changelogButton:hover {
+  background: #2c5282;
+  transform: translateY(-1px);
+}
+
+.changelogButton.hasUpdates {
+  background: #38a169;
+  animation: pulse 2s infinite;
+}
+
+.changelogButton.hasUpdates:hover {
+  background: #2f855a;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(56, 161, 105, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(56, 161, 105, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(56, 161, 105, 0);
+  }
+}
+
+.updateDot {
+  width: 8px;
+  height: 8px;
+  background: #ffd700;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  border: 2px solid white;
+}
+
 @media (max-width: 600px) {
   .main {
     margin: 1rem;
@@ -149,4 +221,13 @@ button[type="submit"]:focus {
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
   }
+}
+
+@media (max-width: 768px) {
+  
+  .changelogButton {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+  
 }

@@ -13,6 +13,7 @@ export default function Navbar() {
       {/* <Link to="/contact" className={styles.navLink}>Contact</Link> */}
       <Link to="/projects" className={styles.navLink}>Projects</Link>
       <Link to="/about" className={styles.navLink}>About</Link>
+      <Link to="/changelog" className={styles.navLink} >Site Updates</Link>
       <a href="https://www.linkedin.com/in/abby-weinreb-2342a2201/" className={styles.navLink} target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </nav>
           </header>

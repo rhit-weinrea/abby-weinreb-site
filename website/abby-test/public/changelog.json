@@ -1,0 +1,24 @@
+[
+    {
+        "version": "1.0.0",
+        "date": "2025-09-16",
+        "highlight": "Initial release of the personal website!",
+        "changes": [
+            "Launched the personal website showcasing my projects and skills."
+        ],
+        "type": "launch"
+    },
+
+    {
+        "version": "1.0.1",
+        "date": "2025-09-16",
+        "highlight": "Implementing Changelog functionality",
+        "changes": [
+            "Created Site Updates page to track changes and updates to the website.",
+            "Added favicon",
+            "Small styling fixes"
+        ],
+        "type": "feature"
+    }
+
+]

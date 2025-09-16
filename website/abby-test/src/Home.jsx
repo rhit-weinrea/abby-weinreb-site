@@ -23,7 +23,7 @@ export default function Home() {
           <h2>Featured Projects</h2>
           <ul>
             <li>
-              <strong>Personal Website (where you are right now!)</strong> – A showcase of my work, built with accessibility in mind.
+              <strong>Personal Website (where you are right now!)</strong> – A showcase of my work, built with accessibility in mind. This project is new and ongoing and will be getting regular updates!
             </li>
             <li>
               <strong>reTHink Mobile App + Admin Panel</strong> – My senior capstone project: a Flutter app to promote sustainable actions, with a web admin panel for content management.

@@ -5,6 +5,7 @@ import Projects from "./pages/projects/projects";
 import About from "./pages/about/about";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Contact from "./pages/contact/contact";
+import ChangeLog from "./pages/changelog/changelog";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<Home />} />
         <Route path="/contact" element={<Home />} />
+        <Route path="/changelog" element={<ChangeLog />} />
+
         {/* Add more routes here as your site grows */}
       </Routes>
     </Router>
