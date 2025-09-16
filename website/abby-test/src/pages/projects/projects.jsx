@@ -1,11 +1,11 @@
 import React from "react";
 import Project from "../../components/project/project";
 import styles from "./projects.module.css";
-import r1 from "/resources/rethink1.jpeg" 
-import r2 from "/resources/rethink2.jpeg"
-import r3 from "/resources/rethink3.jpeg"
-import g1 from "/resources/garp1.png"
-import g2 from "/resources/garp2.png"   
+import r1 from "./resources/rethink1.jpeg" 
+import r2 from "./resources/rethink2.jpeg"
+import r3 from "./resources/rethink3.jpeg"
+import g1 from "./resources/garp1.png"
+import g2 from "./resources/garp2.png"   
 
 const reTHinkImages = [
 
