@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import Navbar from "./components/Navbar/Navbar.jsx";
+import profPhoto from "./resources/proff_photo.JPG";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <section id="about" tabIndex={-1} className={styles.aboutSection}>
           <h2>About Me</h2>
           <img
-            src="resources/proff_photo.JPG"
+            src={profPhoto}
             alt="Portrait of Abby Weinreb"
             className={styles.profileImg}
           />
