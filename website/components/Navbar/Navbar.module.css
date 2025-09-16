@@ -1,0 +1,88 @@
+.header {
+  background: linear-gradient(90deg, #48c6ef 0%, #6f86d6 100%);
+  color: #fff;
+  padding: 2.5rem 1rem 1.5rem 1rem;
+  text-align: center;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  box-shadow: 0 4px 16px rgba(30, 60, 114, 0.10);
+  position: relative;
+}
+.header h1 {
+  font-family: 'Pacifico', cursive, sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+.header p {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+.sharkEmoji {
+  font-size: 2rem;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+.nav {
+  margin-top: 1.2rem;
+}
+.navLink {
+  color: #e0f7fa;
+  background: #1976d2;
+  text-decoration: none;
+  margin: 0 0.7rem;
+  font-weight: 600;
+  padding: 0.4em 1em;
+  border-radius: 1em;
+  transition: background 0.2s, color 0.2s;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(30, 60, 114, 0.08);
+}
+.navLink:focus,
+.navLink:hover {
+  background: #e0f7fa;
+  color: #1976d2;
+  text-decoration: underline;
+  outline: 2px solid #1976d2;
+  outline-offset: 2px;
+}
+
+.body {
+  font-family: 'Segoe UI', 'Nunito', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #b3e0ff 0%, #1e3c72 100%);
+  color: #143447;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+.main {
+  max-width: 700px;
+  margin: 2.5rem auto;
+  padding: 2rem 1.5rem;
+  background: #e0f7fa;
+  border-radius: 2rem;
+  box-shadow: 0 4px 24px rgba(30, 60, 114, 0.10);
+}
+.main h2 {
+  color: #1976d2;
+  font-family: 'Nunito', 'Segoe UI', sans-serif;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.header,
+.header h1,
+.header p,
+.sharkEmoji,
+.nav,
+.navLink,
+.body,
+.main,
+.main h2 {
+  font-family: 'Nunito', 'Segoe UI', Arial, sans-serif !important;
+}

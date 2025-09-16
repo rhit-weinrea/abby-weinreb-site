@@ -1,0 +1,57 @@
+:global(body) {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', 'Segoe UI', sans-serif;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectTitle {
+  font-family: 'Nunito', 'Segoe UI', sans-serif;
+  color: #1976d2;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: 1px;
+  background: #e0f7fa;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 12px rgba(30, 60, 114, 0.08);
+  margin: 1.5rem 0;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+  padding: 0.5rem 1rem;
+}
+
+:global(.project) {
+  margin-bottom: 2.5rem;
+}
+
+:global(.project *),
+:global(.projectTitle) {
+  font-family: 'Nunito', 'Segoe UI', sans-serif !important;
+}
+
+@media (max-width: 700px) {
+  .projectsContainer {
+    padding: 1rem 0.5rem;
+    border-radius: 1rem;
+  }
+  .projectTitle {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+}
