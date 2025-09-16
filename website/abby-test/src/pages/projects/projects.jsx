@@ -17,8 +17,8 @@ const reTHinkImages = [
 
 const garpImages = [
 
-  "/resources/garp1.png",
-  "/resources/garp2.png"
+  g1,
+  g2
 ]
 
 export default function Projects() {
