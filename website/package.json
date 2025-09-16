@@ -3,6 +3,7 @@
     "vite": "^7.1.5"
   },
   "dependencies": {
+    "@cloudflare/vite-plugin": "^1.13.1",
     "@vitejs/plugin-react": "^5.0.2",
     "firebase": "^12.2.1",
     "node": "^24.8.0",
