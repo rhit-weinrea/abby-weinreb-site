@@ -6,6 +6,13 @@ import r2 from "../../resources/rethink2.jpeg"
 import r3 from "../../resources/rethink3.jpeg"
 import g1 from "../../resources/garp1.png"
 import g2 from "../../resources/garp2.png"   
+import chillweb1 from "../../resources/chillpillhome.png"
+import chillweb2 from "../../resources/soundboard.png"
+import chillweb3 from "../../resources/journal.png"
+import chillapp1 from "../../resources/homeapp.jpeg"
+import chillapp2 from "../../resources/soundapp.jpeg"
+import chillapp3 from "../../resources/breathapp.jpeg"
+
 
 const reTHinkImages = [
 
@@ -19,7 +26,19 @@ const garpImages = [
 
   g1,
   g2
-]
+];
+
+const chillwebImages  = [
+  chillweb1,
+  chillweb2,
+  chillweb3 
+];
+
+const chillappImages =  [
+  chillapp1,
+  chillapp2,
+  chillapp3
+];
 
 export default function Projects() {
   return (
@@ -177,7 +196,84 @@ export default function Projects() {
           </>
         }
       />
-      </div> 
-    </main>
-  );
+      <h2 className={styles.projectTitle}>Older Projects</h2>
+
+      <Project
+        title="Chill Pill Mental Health Web App v2"
+        description={
+          <>
+            <span>Spring 2022</span>
+            <ul>
+              <li>
+                First fullstack application I have ever built!
+              </li>
+              <li>
+                Created a mental health resource website to provide coping mechanisms and support for college students.
+              </li>
+              <li>
+                New features included a soundboard, and a groups section where you can connect with other users
+              </li> 
+            </ul>
+          </>
+        }
+        details = {
+          <>
+            <ul>
+              <li>
+                Iteration of my Chill Pill App from highschool
+              </li>
+              <li>
+                Added authentication through Firebase
+              </li>
+              <li>
+                Conducted user testing to gather feedback and improve the user experience.
+              </li>
+              <li>
+                You can still visit at <a href="https://chillpillweb.web.app/" className={styles.link} target="_blank" rel="noopener noreferrer">https://chillpillweb.web.app/</a>
+              </li>
+              <li><strong>I don't have access to the Firebase, so I have not been able to make any improvements</strong></li>
+            </ul>
+          </>
+        }
+        images={chillwebImages}
+      />
+      <Project
+        title="Chill Pill Mental Health Web App v1"
+        description={
+          <>
+            <span>Spring 2020</span>
+            <ul>
+              <li>
+                First ever project I had created in Computer Science
+              </li>
+              <li>
+                Developed a mobile app to provide mental health resources and support for users.
+              </li>
+              <li>
+                Implemented a user-friendly interface with easy navigation and access to resources.
+              </li>
+              <li>
+                Integrated a chatbot for real-time support and guidance.
+              </li>
+            </ul>
+          </>
+        }
+        details = {
+          <>
+            <ul>
+              <li>
+                Created as my AP Computer Science Principles Final
+              </li>
+              <li>
+                You can still access it here <a href="https://studio.code.org/projects/applab/TCTc2thVBb_m-orm65762WcbBarBrlnLSyf6j0rTY8k?qr=true" className={styles.link} target="_blank" rel="noopener noreferrer">https://studio.code.org/projects/applab/TCTc2thVBb_m-orm65762WcbBarBrlnLSyf6j0rTY8k?qr=true</a>
+              </li>
+            <li><strong>I don't have access to the source code anymore, so I have not been able to make any improvements</strong></li>
+              </ul>
+          </>
+        }
+        images = {chillappImages}
+      />
+    </div>
+  </main>
+);
 }

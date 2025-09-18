@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import Navbar from "./components/Navbar/Navbar.jsx";
-import profPhoto from "./resources/proff_photo.JPG";
+import profPhoto from "./resources/proff_photo.jpg";
 
 export default function Home() {
   return (

@@ -19,6 +19,17 @@
             "Small styling fixes"
         ],
         "type": "feature"
+    },
+
+    {
+        "version": "1.0.2",
+        "date": "2025-09-17",
+        "highlight": "Added Older Projects",
+        "changes": [
+            "Added a section for older projects",
+            "Small styling fixes"
+        ],
+        "type": "update"
     }
 
 ]
