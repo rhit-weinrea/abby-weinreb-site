@@ -55,12 +55,7 @@ export default function Home() {
           </form>
         </section>
       </main>
-      <footer className={styles.footer}>
-        <p>
-          &copy; 2025 Abby Weinreb.{" "}
-          <span className={styles.srOnly}>All rights reserved.</span> <span role="img" aria-label="wave">🌊</span>
-        </p>
-      </footer>
+     
     </div>
   );
 }

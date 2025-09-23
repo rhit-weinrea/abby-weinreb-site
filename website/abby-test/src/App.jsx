@@ -6,6 +6,7 @@ import About from "./pages/about/about";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Contact from "./pages/contact/contact";
 import ChangeLog from "./pages/changelog/changelog";
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
 
         {/* Add more routes here as your site grows */}
       </Routes>
+      <Footer />
     </Router>
   );
 }

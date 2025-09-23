@@ -93,6 +93,11 @@
   border-color: #cfe7ff;
   color: #0f4c81;
 }
+.update {
+  background: #ffd7fe;       
+  border-color: #cfe7ff;
+  color: #0f4c81;
+}
 .fix {
   background: #f0fff4;        
   border-color: #cdeed7;

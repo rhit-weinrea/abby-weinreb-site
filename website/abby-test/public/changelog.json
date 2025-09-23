@@ -30,6 +30,29 @@
             "Small styling fixes"
         ],
         "type": "update"
+    },
+
+        {
+        "version": "1.0.3",
+        "date": "2025-09-17",
+        "highlight": "Created Footer component",
+        "changes": [
+            "Added links to my linkedin and github",
+            "Small styling fixes"
+        ],
+        "type": "update"
+    },
+
+    {
+        "version": "1.0.4",
+        "date": "2025-09-21",
+        "highlight": "Fixed Project Container Bug",
+        "changes": [
+            "Fixed issue where project page container was shrinking on smaller screens",
+            "Improved layout and styling of project cards",
+            "Added active styles to navbar links"
+        ],
+        "type": "fix"
     }
 
 ]

@@ -17,7 +17,7 @@ export default function ChangelogPage() {
   return (
     <div className={styles.page}>
       <header className={styles.header}>
-        <h1 className={styles.title}>Changelog</h1>
+        <h1 className={styles.title}>Site Updates</h1>
         <button type="button" onClick={refresh} className={styles.refreshBtn}>
           Refresh
         </button>

@@ -42,8 +42,10 @@ const chillappImages =  [
 
 export default function Projects() {
   return (
+    <div className={styles.page}>
     <main className={styles.projectContainer}>
       <h2 className={styles.projectTitle}>Highlighted Projects</h2>
+      <h4 className={styles.description}>Click on any images to get a better look!</h4>
     <div className={styles.projects}> 
       <Project
   title="Personal Website"
@@ -55,7 +57,7 @@ export default function Projects() {
           Designed and developed my personal portfolio website to showcase my work and values.
         </li>
         <li>
-          Focused on accessibility, usability, and a welcoming ocean-inspired aesthetic.
+          Focused on accessibility, usability, and a welcoming aesthetic.
         </li>
         <li>Is currently in progress, come back soon for updates!</li>
       </ul>
@@ -229,7 +231,7 @@ export default function Projects() {
                 Conducted user testing to gather feedback and improve the user experience.
               </li>
               <li>
-                You can still visit at <a href="https://chillpillweb.web.app/" className={styles.link} target="_blank" rel="noopener noreferrer">https://chillpillweb.web.app/</a>
+                You can still visit at <a href="https://chillpill-1775f.web.app/" className={styles.link} target="_blank" rel="noopener noreferrer">https://chillpillweb.web.app/</a>
               </li>
               <li><strong>I don't have access to the Firebase, so I have not been able to make any improvements</strong></li>
             </ul>
@@ -252,9 +254,6 @@ export default function Projects() {
               <li>
                 Implemented a user-friendly interface with easy navigation and access to resources.
               </li>
-              <li>
-                Integrated a chatbot for real-time support and guidance.
-              </li>
             </ul>
           </>
         }
@@ -275,5 +274,6 @@ export default function Projects() {
       />
     </div>
   </main>
+  </div>
 );
 }

@@ -4,20 +4,27 @@
   font-family: 'Nunito', 'Segoe UI', sans-serif;
 }
 
-.projectContainer {
+.page {
   display: flex;
   flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  align-items: center;
+}
+
+.projectContainer {
+    background: #e0f7fa;
+    border: 1px rgba(200, 213, 239, 0.08);
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(30, 60, 114, 0.08);
+    max-width: 80%;
+    margin: 2rem auto;
 }
 
 .projects {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    
 }
 
 .projectTitle {
@@ -27,13 +34,26 @@
   margin-bottom: 2rem;
   text-align: center;
   letter-spacing: 1px;
-  background: #e0f7fa;
+  background: none;
   border-radius: 1.5rem;
-  box-shadow: 0 2px 12px rgba(30, 60, 114, 0.08);
   margin: 1.5rem 0;
   overflow: hidden;
-  transition: box-shadow 0.2s;
   padding: 0.5rem 1rem;
+}
+
+.description {
+  font-family: 'Nunito', 'Segoe UI', sans-serif;
+  color: #1976d2;
+  font-size: small;
+  font-weight: light;
+  margin-bottom: 1rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  background: none;
+  border-radius: 1rem;
+  padding: 0.3rem 0.8rem;
+  width:50%;
+  margin:auto;
 }
 
 :global(.project) {
