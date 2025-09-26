@@ -43,9 +43,21 @@ const chillappImages =  [
 export default function Projects() {
   return (
     <div className={styles.page}>
-    <main className={styles.projectContainer}>
-      <h2 className={styles.projectTitle}>Highlighted Projects</h2>
-      <h4 className={styles.description}>Click on any images to get a better look!</h4>
+      {/* Body Sharks */}
+      <img src="/sharks/14.svg" alt="" className={styles.bodyShark1} />
+      <img src="/sharks/16.svg" alt="" className={styles.bodyShark2} />
+      <img src="/sharks/17.svg" alt="" className={styles.bodyShark3} />
+      <img src="/sharks/18.svg" alt="" className={styles.bodyShark4} />
+      <img src="/sharks/16.svg" alt="" className={styles.bodyShark5} />
+      <img src="/sharks/12.svg" alt="" className={styles.bodyShark6} />
+      <img src="/sharks/13.svg" alt="" className={styles.bodyShark7} />
+      <img src="/sharks/17.svg" alt="" className={styles.bodyShark8} />
+      <img src="/sharks/18.svg" alt="" className={styles.bodyShark9} />
+      <img src="/sharks/14.svg" alt="" className={styles.bodyShark10} />
+      
+    <main className={styles.projectContainer} id="main-content">
+      <h1 className={styles.bubbleHeader}>Highlighted Projects</h1>
+      <p className={styles.description}>Click on any images to get a better look!</p>
     <div className={styles.projects}> 
       <Project
   title="Personal Website"
@@ -198,7 +210,7 @@ export default function Projects() {
           </>
         }
       />
-      <h2 className={styles.projectTitle}>Older Projects</h2>
+      <h2 className={styles.bubbleHeader}>Older Projects</h2>
 
       <Project
         title="Chill Pill Mental Health Web App v2"

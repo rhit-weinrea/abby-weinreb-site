@@ -1,4 +1,3 @@
-// src/pages/ChangelogPage.jsx
 import React from 'react';
 import { useChangelog } from '../../hooks/useChangelog';
 import styles from './changelog.module.css';
@@ -6,7 +5,7 @@ import styles from './changelog.module.css';
 export default function ChangelogPage() {
   const { updates, loading, error, refresh } = useChangelog();
 
-  if (loading) return <p className={styles.status}>Loading changelog…</p>;
+  if (loading) return <p className={styles.status} aria-live="polite">Loading changelog…</p>;
   if (error) return (
     <div className={styles.errorWrap}>
       <p>Couldn’t load changelog: {String(error.message || error)}</p>
@@ -17,7 +16,7 @@ export default function ChangelogPage() {
   return (
     <div className={styles.page}>
       <header className={styles.header}>
-        <h1 className={styles.title}>Site Updates</h1>
+        <h1 className={styles.bubbleHeader}>Site Updates</h1>
         <button type="button" onClick={refresh} className={styles.refreshBtn}>
           Refresh
         </button>

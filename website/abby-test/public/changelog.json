@@ -53,6 +53,39 @@
             "Added active styles to navbar links"
         ],
         "type": "fix"
+    },
+
+    {
+        "version": "1.0.5",
+        "date": "2025-09-25",
+        "highlight": "UI Revamp and Content Update",
+        "changes": [
+            "Created new color scheme and updated overall website styling",
+            "Updated portfolio description to highlight key technologies used",
+            "Reorganized information into new pages"
+        ],
+        "type": "update"
+    },
+    {
+        "version": "1.0.6",
+        "date": "2025-09-26",
+        "highlight": "Added Shark Facts of the Day and Shark CSS Sprites",
+        "changes": [
+            "Added shark sprites to swim across the page",
+            "Created a daily fun fact feature",
+            "Changed styling and layouts of several components"
+        ],
+        "type": "feature"
+    },
+
+    {
+        "version": "1.0.7",
+        "date": "2025-09-26",
+        "highlight": "Fixed scroll bug",
+        "changes": [
+            "Ensured that the page scrolls to the top when navigating to a new page"
+        ],
+        "type": "bug"
     }
 
 ]

@@ -1,0 +1,1279 @@
+[
+  {
+    "id": 1,
+    "shark species": "great white",
+    "fact": "Great white sharks can detect a single drop of blood in 25 gallons of water."
+  },
+  {
+    "id": 2,
+    "shark species": "tiger",
+    "fact": "Tiger sharks are nicknamed 'garbage cans of the sea' because they eat almost anything, including license plates and tires."
+  },
+  {
+    "id": 3,
+    "shark species": "hammerhead",
+    "fact": "Hammerhead sharks have 360-degree vision thanks to their wide-set eyes."
+  },
+  {
+    "id": 4,
+    "shark species": "nurse",
+    "fact": "Nurse sharks can create a strong suction to suck prey out of crevices."
+  },
+  {
+    "id": 5,
+    "shark species": "thresher",
+    "fact": "Thresher sharks use their long tails like whips to stun schools of fish."
+  },
+  {
+    "id": 6,
+    "shark species": "greenland",
+    "fact": "Greenland sharks can live over 400 years, making them the longest-lived vertebrates."
+  },
+  {
+    "id": 7,
+    "shark species": "goblin",
+    "fact": "Goblin sharks have extendable jaws that shoot forward to grab prey."
+  },
+  {
+    "id": 8,
+    "shark species": "whale",
+    "fact": "Whale sharks are the largest fish in the world, growing over 40 feet long."
+  },
+  {
+    "id": 9,
+    "shark species": "lemon",
+    "fact": "Lemon sharks can return to their birthplace to give birth, a behavior known as natal philopatry."
+  },
+  {
+    "id": 10,
+    "shark species": "bull",
+    "fact": "Bull sharks can survive in both saltwater and freshwater, even swimming far up rivers."
+  },
+  {
+    "id": 11,
+    "shark species": "basking",
+    "fact": "Basking sharks filter up to 2,000 tons of water per hour while feeding on plankton."
+  },
+  {
+    "id": 12,
+    "shark species": "cookiecutter",
+    "fact": "Cookiecutter sharks bite circular plugs out of much larger animals, including whales and submarines."
+  },
+  {
+    "id": 13,
+    "shark species": "zebra",
+    "fact": "Juvenile zebra sharks have stripes, but as they mature, their stripes turn into spots."
+  },
+  {
+    "id": 14,
+    "shark species": "blacktip",
+    "fact": "Blacktip sharks often leap out of the water and spin while feeding on schools of fish."
+  },
+  {
+    "id": 15,
+    "shark species": "sand tiger",
+    "fact": "Sand tiger shark embryos eat their siblings inside the womb, a behavior called intrauterine cannibalism."
+  },
+  {
+    "id": 16,
+    "shark species": "megamouth",
+    "fact": "Megamouth sharks are so rare that fewer than 300 confirmed sightings have ever been recorded."
+  },
+  {
+    "id": 17,
+    "shark species": "porbeagle",
+    "fact": "Porbeagle sharks are one of the few shark species known to play, chasing objects in the water."
+  },
+  {
+    "id": 18,
+    "shark species": "shortfin mako",
+    "fact": "Shortfin mako sharks are the fastest sharks, capable of swimming up to 45 mph."
+  },
+  {
+    "id": 19,
+    "shark species": "wobbegong",
+    "fact": "Wobbegong sharks use camouflage to lie in wait and ambush unsuspecting prey."
+  },
+  {
+    "id": 20,
+    "shark species": "frilled",
+    "fact": "Frilled sharks are often called 'living fossils' because they have remained unchanged for millions of years."
+  },
+  {
+    "id": 21,
+    "shark species": "swell",
+    "fact": "Swell sharks can gulp water or air to puff up their bodies when threatened."
+  },
+  {
+    "id": 22,
+    "shark species": "blue",
+    "fact": "Blue sharks migrate thousands of miles across oceans each year."
+  },
+  {
+    "id": 23,
+    "shark species": "carpet",
+    "fact": "Carpet sharks are known for their ornate patterns that resemble carpets or mosaics."
+  },
+  {
+    "id": 24,
+    "shark species": "horn",
+    "fact": "Horn sharks use their strong jaws to crush hard-shelled prey like sea urchins and crabs."
+  },
+  {
+    "id": 25,
+    "shark species": "sawshark",
+    "fact": "Sawsharks use their long saw-like snouts lined with teeth to slash through schools of fish."
+  },
+  {
+    "id": 26,
+    "shark species": "angel",
+    "fact": "Angel sharks bury themselves in sand with only their eyes exposed, ambushing prey from below."
+  },
+  {
+    "id": 27,
+    "shark species": "silky",
+    "fact": "Silky sharks get their name from their smooth skin texture."
+  },
+  {
+    "id": 28,
+    "shark species": "white tip reef",
+    "fact": "White tip reef sharks are one of the only sharks that can rest motionless on the ocean floor."
+  },
+  {
+    "id": 29,
+    "shark species": "dusky",
+    "fact": "Dusky sharks take up to 20 years to mature, one of the longest times for any shark."
+  },
+  {
+    "id": 30,
+    "shark species": "dogfish",
+    "fact": "Dogfish sharks were once used as sandpaper because of their rough skin."
+  },
+  {
+    "id": 31,
+    "shark species": "brown catshark",
+    "fact": "Brown catsharks are small, deep-sea sharks often less than 2 feet long."
+  },
+  {
+    "id": 32,
+    "shark species": "epaulette",
+    "fact": "Epaulette sharks can walk across land using their fins to move between tide pools."
+  },
+  {
+    "id": 33,
+    "shark species": "gulper",
+    "fact": "Gulper sharks have huge livers that make up to 20% of their body weight."
+  },
+  {
+    "id": 34,
+    "shark species": "sandbar",
+    "fact": "Sandbar sharks have the tallest dorsal fin relative to body size of any shark."
+  },
+  {
+    "id": 35,
+    "shark species": "brown-banded bamboo",
+    "fact": "Brown-banded bamboo sharks are often kept in aquariums because of their small size and calm nature."
+  },
+  {
+    "id": 36,
+    "shark species": "night",
+    "fact": "Night sharks are rarely seen because they live in deep waters and only rise to feed at night."
+  },
+  {
+    "id": 37,
+    "shark species": "spiny dogfish",
+    "fact": "Spiny dogfish were the most abundant shark species for centuries and were heavily fished."
+  },
+  {
+    "id": 38,
+    "shark species": "blacknose",
+    "fact": "Blacknose sharks get their name from the dark blotch on the tip of their snout."
+  },
+  {
+    "id": 39,
+    "shark species": "sharpnose",
+    "fact": "Sharpnose sharks are named for their long, pointed snouts."
+  },
+  {
+    "id": 40,
+    "shark species": "finetooth",
+    "fact": "Finetooth sharks travel in large schools, sometimes numbering in the hundreds."
+  },
+  {
+    "id": 41,
+    "shark species": "galapagos",
+    "fact": "Galapagos sharks are highly territorial and often circle divers curiously."
+  },
+  {
+    "id": 42,
+    "shark species": "graceful",
+    "fact": "Graceful sharks look very similar to blacktip sharks but lack the distinct fin markings."
+  },
+  {
+    "id": 43,
+    "shark species": "ganges",
+    "fact": "Ganges sharks are critically endangered and live only in India’s Ganges River."
+  },
+  {
+    "id": 44,
+    "shark species": "sharpnose sevengill",
+    "fact": "Sharpnose sevengill sharks have seven gill slits instead of the usual five."
+  },
+  {
+    "id": 45,
+    "shark species": "bluntnose sixgill",
+    "fact": "Bluntnose sixgill sharks can grow longer than great whites but live in deep waters."
+  },
+  {
+    "id": 46,
+    "shark species": "bigeye thresher",
+    "fact": "Bigeye threshers have huge eyes adapted to hunting in deep, dark waters."
+  },
+  {
+    "id": 47,
+    "shark species": "oceanic whitetip",
+    "fact": "Oceanic whitetip sharks were once considered the most abundant large animal on Earth."
+  },
+  {
+    "id": 48,
+    "shark species": "false catshark",
+    "fact": "False catsharks are unusual deep-sea sharks that can swallow large prey whole."
+  },
+  {
+    "id": 49,
+    "shark species": "brown smoothhound",
+    "fact": "Brown smoothhounds are harmless sharks that feed mostly on crustaceans."
+  },
+  {
+    "id": 50,
+    "shark species": "starspotted smoothhound",
+    "fact": "Starspotted smoothhounds are named for the star-like spots on their bodies."
+  },
+  {
+    "id": 51,
+    "shark species": "milk",
+    "fact": "Milk sharks are small coastal sharks named after their pale coloration."
+  },
+  {
+    "id": 52,
+    "shark species": "pajama",
+    "fact": "Pajama sharks are covered in dark vertical stripes that resemble striped pajamas."
+  },
+  {
+    "id": 53,
+    "shark species": "slender bamboo",
+    "fact": "Slender bamboo sharks are nocturnal and hide in coral crevices during the day."
+  },
+  {
+    "id": 54,
+    "shark species": "dumb gulper",
+    "fact": "Dumb gulper sharks are critically endangered due to overfishing for their liver oil."
+  },
+  {
+    "id": 55,
+    "shark species": "longfin mako",
+    "fact": "Longfin mako sharks are rare relatives of the shortfin mako with larger pectoral fins."
+  },
+  {
+    "id": 56,
+    "shark species": "daggernose",
+    "fact": "Daggernose sharks have long, flattened snouts and are critically endangered."
+  },
+  {
+    "id": 57,
+    "shark species": "graceful catshark",
+    "fact": "Graceful catsharks are small, bottom-dwelling sharks that live in the Indian Ocean."
+  },
+  {
+    "id": 58,
+    "shark species": "clouded catshark",
+    "fact": "Clouded catsharks are patterned with blotches that help them blend with rocky seafloors."
+  },
+  {
+    "id": 59,
+    "shark species": "ornate wobbegong",
+    "fact": "Ornate wobbegongs are beautifully patterned sharks that blend perfectly into coral reefs."
+  },
+  {
+    "id": 60,
+    "shark species": "barbeled houndshark",
+    "fact": "Barbeled houndsharks have whisker-like barbels near their mouths to help detect prey."
+  },
+  {
+    "id": 61,
+    "shark species": "crested bullhead",
+    "fact": "Crested bullhead sharks lay spiral-shaped egg cases that wedge into rocky crevices."
+  },
+  {
+    "id": 62,
+    "shark species": "port jackson",
+    "fact": "Port Jackson sharks have unique harness-like markings across their bodies."
+  },
+  {
+    "id": 63,
+    "shark species": "spotted wobbegong",
+    "fact": "Spotted wobbegongs have skin flaps around their mouths that resemble seaweed."
+  },
+  {
+    "id": 64,
+    "shark species": "blind",
+    "fact": "Blind sharks are not actually blind; they just close their eyes when taken out of the water."
+  },
+  {
+    "id": 65,
+    "shark species": "flapper skate",
+    "fact": "Flapper skates are rays, close relatives of sharks, and were once called 'skate sharks.'"
+  },
+  {
+    "id": 66,
+    "shark species": "roughskin dogfish",
+    "fact": "Roughskin dogfish were a major source of vitamin A during World War II."
+  },
+  {
+    "id": 67,
+    "shark species": "speartooth",
+    "fact": "Speartooth sharks are among the rarest sharks, living only in a few tropical rivers."
+  },
+  {
+    "id": 68,
+    "shark species": "ornate angel",
+    "fact": "Ornate angel sharks are critically endangered due to bottom trawling."
+  },
+  {
+    "id": 69,
+    "shark species": "tasselled wobbegong",
+    "fact": "Tasselled wobbegongs have fringes around their heads that look like coral."
+  },
+  {
+    "id": 70,
+    "shark species": "white ghost catshark",
+    "fact": "White ghost catsharks are deep-sea sharks discovered only recently."
+  },
+  {
+    "id": 71,
+    "shark species": "small-spotted catshark",
+    "fact": "Small-spotted catsharks are common in European waters and are often called 'dogfish.'"
+  },
+  {
+    "id": 72,
+    "shark species": "narrow sawfish",
+    "fact": "Narrow sawfish are actually rays but are often mistaken for sawsharks."
+  },
+  {
+    "id": 73,
+    "shark species": "pygmy shark",
+    "fact": "Pygmy sharks are among the smallest sharks, reaching only about 10 inches long."
+  },
+  {
+    "id": 74,
+    "shark species": "lanternshark",
+    "fact": "Lanternsharks glow in the dark thanks to light-producing organs called photophores."
+  },
+  {
+    "id": 75,
+    "shark species": "longnose spurdog",
+    "fact": "Longnose spurdogs have venomous spines in front of their dorsal fins."
+  },
+  {
+    "id": 76,
+    "shark species": "velvet belly lanternshark",
+    "fact": "Velvet belly lanternsharks use bioluminescence to hide from predators below."
+  },
+  {
+    "id": 77,
+    "shark species": "greeneye spurdog",
+    "fact": "Greeneye spurdogs have striking green eyes adapted to deep-sea living."
+  },
+  {
+    "id": 78,
+    "shark species": "smalleye hammerhead",
+    "fact": "Smalleye hammerhead sharks are bright yellow on their undersides."
+  },
+  {
+    "id": 79,
+    "shark species": "scalloped hammerhead",
+    "fact": "Scalloped hammerheads form massive schools, sometimes with hundreds of individuals."
+  },
+  {
+    "id": 80,
+    "shark species": "great hammerhead",
+    "fact": "Great hammerheads are the largest hammerhead species, reaching up to 20 feet."
+  },
+  {
+    "id": 81,
+    "shark species": "smooth hammerhead",
+    "fact": "Smooth hammerheads lack the indentation on the front of the head seen in other hammerheads."
+  },
+  {
+    "id": 82,
+    "shark species": "whitecheek shark",
+    "fact": "Whitecheek sharks are small sharks found in shallow coastal waters."
+  },
+  {
+    "id": 83,
+    "shark species": "pacific sleeper",
+    "fact": "Pacific sleeper sharks are slow-moving giants that may live for centuries."
+  },
+  {
+    "id": 84,
+    "shark species": "longnose dogfish",
+    "fact": "Longnose dogfish live at depths of up to 5,000 feet."
+  },
+  {
+    "id": 85,
+    "shark species": "brown shyshark",
+    "fact": "Brown shysharks curl into a ring and cover their eyes with their tails when threatened."
+  },
+  {
+    "id": 86,
+    "shark species": "striped catshark",
+    "fact": "Striped catsharks have bold stripes running the length of their bodies."
+  },
+  {
+    "id": 87,
+    "shark species": "lacepede’s catshark",
+    "fact": "Lacepede’s catsharks are named after French naturalist Bernard Germain de Lacépède."
+  },
+  {
+    "id": 88,
+    "shark species": "broadnose sevengill",
+    "fact": "Broadnose sevengill sharks are powerful predators that can hunt seals."
+  },
+  {
+    "id": 89,
+    "shark species": "greeneye dogfish",
+    "fact": "Greeneye dogfish glow bright green when illuminated by light."
+  },
+  {
+    "id": 90,
+    "shark species": "longfin lanternshark",
+    "fact": "Longfin lanternsharks glow to attract mates in the deep sea."
+  },
+  {
+    "id": 91,
+    "shark species": "dwarf lanternshark",
+    "fact": "Dwarf lanternsharks are the smallest known shark, only 6 inches long."
+  },
+  {
+    "id": 92,
+    "shark species": "velvet catshark",
+    "fact": "Velvet catsharks are rarely seen and live in deep waters."
+  },
+  {
+    "id": 93,
+    "shark species": "false catshark",
+    "fact": "False catsharks have a flabby body and are sometimes called sofa sharks."
+  },
+  {
+    "id": 94,
+    "shark species": "arabian carpetshark",
+    "fact": "Arabian carpetsharks are nocturnal hunters that hide in reefs during the day."
+  },
+  {
+    "id": 95,
+    "shark species": "broadgill catshark",
+    "fact": "Broadgill catsharks have wide gill openings compared to other catsharks."
+  },
+  {
+    "id": 96,
+    "shark species": "filetail catshark",
+    "fact": "Filetail catsharks have rough, file-like skin texture."
+  },
+  {
+    "id": 97,
+    "shark species": "collared carpetshark",
+    "fact": "Collared carpetsharks are named for the dark collar-like band around their neck."
+  },
+  {
+    "id": 98,
+    "shark species": "indonesian angel",
+    "fact": "Indonesian angel sharks are critically endangered and extremely rare."
+  },
+  {
+    "id": 99,
+    "shark species": "african angel",
+    "fact": "African angel sharks are flattened bottom-dwellers that ambush prey."
+  },
+  {
+    "id": 100,
+    "shark species": "japanese sawshark",
+    "fact": "Japanese sawsharks use barbels on their snouts to detect buried prey."
+  },
+  {
+    "id": 101,
+    "shark species": "western wobbegong",
+    "fact": "Western wobbegongs can change color slightly to match their surroundings."
+  },
+  {
+    "id": 102,
+    "shark species": "ornate angel",
+    "fact": "Ornate angel sharks are highly camouflaged and rest on sandy seabeds."
+  },
+  {
+    "id": 103,
+    "shark species": "crooked catshark",
+    "fact": "Crooked catsharks are named for their oddly curved backs."
+  },
+  {
+    "id": 104,
+    "shark species": "yellowspotted catshark",
+    "fact": "Yellowspotted catsharks have bright spots that help them blend with corals."
+  },
+  {
+    "id": 105,
+    "shark species": "broadfin shark",
+    "fact": "Broadfin sharks are rarely seen and live in the deep sea."
+  },
+  {
+    "id": 106,
+    "shark species": "brown catshark",
+    "fact": "Brown catsharks are masters of camouflage, blending into muddy seafloors."
+  },
+  {
+    "id": 107,
+    "shark species": "reticulated swellshark",
+    "fact": "Reticulated swellsharks can inflate their bodies to deter predators."
+  },
+  {
+    "id": 108,
+    "shark species": "northern river",
+    "fact": "Northern river sharks live in both rivers and coastal waters in northern Australia."
+  },
+  {
+    "id": 109,
+    "shark species": "speckled catshark",
+    "fact": "Speckled catsharks have irregular dark markings across their pale bodies."
+  },
+  {
+    "id": 110,
+    "shark species": "brown lanternshark",
+    "fact": "Brown lanternsharks use bioluminescence to stay camouflaged from predators below."
+  },
+  {
+    "id": 111,
+    "shark species": "broadnose catshark",
+    "fact": "Broadnose catsharks are bottom-dwellers found off the coasts of South America."
+  },
+  {
+    "id": 112,
+    "shark species": "african catshark",
+    "fact": "African catsharks are found only off southern Africa and are rarely studied."
+  },
+  {
+    "id": 113,
+    "shark species": "indonesian bamboo",
+    "fact": "Indonesian bamboo sharks are egg-layers, with spiral egg cases nicknamed 'mermaid’s purses.'"
+  },
+  {
+    "id": 114,
+    "shark species": "arabian smoothhound",
+    "fact": "Arabian smoothhounds are harmless sharks that feed mainly on shrimp and small crabs."
+  },
+  {
+    "id": 115,
+    "shark species": "brown guitar",
+    "fact": "Brown guitar sharks have body shapes halfway between rays and true sharks."
+  },
+  {
+    "id": 116,
+    "shark species": "whitefin swellshark",
+    "fact": "Whitefin swellsharks glow under UV light due to biofluorescence."
+  },
+  {
+    "id": 117,
+    "shark species": "sunda bamboo",
+    "fact": "Sunda bamboo sharks are small and live in shallow coral reefs in Southeast Asia."
+  },
+  {
+    "id": 118,
+    "shark species": "spotted dogfish",
+    "fact": "Spotted dogfish are small and have a pattern of tiny spots along their backs."
+  },
+  {
+    "id": 119,
+    "shark species": "ornate catshark",
+    "fact": "Ornate catsharks have bold patterns that make them popular in public aquariums."
+  },
+  {
+    "id": 120,
+    "shark species": "indonesian houndshark",
+    "fact": "Indonesian houndsharks are critically endangered due to overfishing."
+  },
+  {
+    "id": 121,
+    "shark species": "slender weasel",
+    "fact": "Slender weasel sharks are long and thin, perfectly adapted for fast swimming."
+  },
+  {
+    "id": 122,
+    "shark species": "barbeled catshark",
+    "fact": "Barbeled catsharks have sensitive feelers around their mouths for detecting prey."
+  },
+  {
+    "id": 123,
+    "shark species": "hasselt’s bamboo",
+    "fact": "Hasselt’s bamboo sharks are nocturnal, hiding in reef crevices by day."
+  },
+  {
+    "id": 124,
+    "shark species": "broadfin sawtail",
+    "fact": "Broadfin sawtail sharks use serrated snouts to slash prey in schools of fish."
+  },
+  {
+    "id": 125,
+    "shark species": "collared catshark",
+    "fact": "Collared catsharks have a distinctive dark collar mark around the head."
+  },
+  {
+    "id": 126,
+    "shark species": "ornate dogfish",
+    "fact": "Ornate dogfish are deepwater sharks with striking body patterns."
+  },
+  {
+    "id": 127,
+    "shark species": "indonesian angel",
+    "fact": "Indonesian angel sharks are critically endangered due to trawling."
+  },
+  {
+    "id": 128,
+    "shark species": "pyjama",
+    "fact": "Pyjama sharks live off South Africa and are named for their striped 'pajama' look."
+  },
+  {
+    "id": 129,
+    "shark species": "longsnout dogfish",
+    "fact": "Longsnout dogfish live in the deep sea and are rarely observed alive."
+  },
+  {
+    "id": 130,
+    "shark species": "blackmouth catshark",
+    "fact": "Blackmouth catsharks are small, deepwater sharks with distinctive black mouths."
+  },
+  {
+    "id": 131,
+    "shark species": "white ghost",
+    "fact": "White ghost catsharks are pale deep-sea sharks first described in the 2010s."
+  },
+  {
+    "id": 132,
+    "shark species": "broadnose dogfish",
+    "fact": "Broadnose dogfish can live at depths greater than 1,000 meters."
+  },
+  {
+    "id": 133,
+    "shark species": "brown shyshark",
+    "fact": "Brown shysharks curl into a donut shape when threatened, hiding their eyes with their tails."
+  },
+  {
+    "id": 134,
+    "shark species": "japanese sawtail",
+    "fact": "Japanese sawtail catsharks are deepwater sharks found off East Asia."
+  },
+  {
+    "id": 135,
+    "shark species": "longfin smoothhound",
+    "fact": "Longfin smoothhounds are migratory sharks that feed mainly on crabs."
+  },
+  {
+    "id": 136,
+    "shark species": "grey bamboo",
+    "fact": "Grey bamboo sharks are small, docile reef sharks often kept in aquariums."
+  },
+  {
+    "id": 137,
+    "shark species": "spotted bamboo",
+    "fact": "Spotted bamboo sharks are beautifully marked with dark blotches."
+  },
+  {
+    "id": 138,
+    "shark species": "brown catshark",
+    "fact": "Brown catsharks are benthic hunters that eat small crustaceans and fish."
+  },
+  {
+    "id": 139,
+    "shark species": "ornate angel",
+    "fact": "Ornate angel sharks are highly camouflaged, blending into sandy seabeds."
+  },
+  {
+    "id": 140,
+    "shark species": "longnose houndshark",
+    "fact": "Longnose houndsharks have elongated snouts and live along continental shelves."
+  },
+  {
+    "id": 141,
+    "shark species": "philippine catshark",
+    "fact": "Philippine catsharks are rarely studied and known only from deep waters around the Philippines."
+  },
+  {
+    "id": 142,
+    "shark species": "hasselt’s catshark",
+    "fact": "Hasselt’s catsharks lay spiral-shaped egg cases called mermaid’s purses."
+  },
+  {
+    "id": 143,
+    "shark species": "ornate swellshark",
+    "fact": "Ornate swellsharks puff up their bodies to avoid being eaten."
+  },
+  {
+    "id": 144,
+    "shark species": "javanese catshark",
+    "fact": "Javanese catsharks are small deepwater species found around Java, Indonesia."
+  },
+  {
+    "id": 145,
+    "shark species": "blotched catshark",
+    "fact": "Blotched catsharks are patterned with large dark patches."
+  },
+  {
+    "id": 146,
+    "shark species": "dark shyshark",
+    "fact": "Dark shysharks curl into rings when threatened, similar to their brown cousins."
+  },
+  {
+    "id": 147,
+    "shark species": "pale spotted catshark",
+    "fact": "Pale spotted catsharks have lighter patterns that help them blend into sandy habitats."
+  },
+  {
+    "id": 148,
+    "shark species": "gulf catshark",
+    "fact": "Gulf catsharks are found in the Gulf of Mexico at depths over 600 feet."
+  },
+  {
+    "id": 149,
+    "shark species": "orange-spotted catshark",
+    "fact": "Orange-spotted catsharks are named for their bright orange spots."
+  },
+  {
+    "id": 150,
+    "shark species": "western spotted catshark",
+    "fact": "Western spotted catsharks are found in Australian waters."
+  },
+  {
+    "id": 151,
+    "shark species": "african spotted catshark",
+    "fact": "African spotted catsharks are bottom-dwelling species from the Indian Ocean."
+  },
+  {
+    "id": 152,
+    "shark species": "atlantic angel",
+    "fact": "Atlantic angel sharks were once common but are now endangered from trawling."
+  },
+  {
+    "id": 153,
+    "shark species": "mediterranean angel",
+    "fact": "Mediterranean angel sharks are critically endangered due to habitat loss."
+  },
+  {
+    "id": 154,
+    "shark species": "african angel",
+    "fact": "African angel sharks camouflage perfectly in sandy coastal waters."
+  },
+  {
+    "id": 155,
+    "shark species": "philippines angel",
+    "fact": "Philippines angel sharks are one of the rarest and least studied angel shark species."
+  },
+  
+  {
+    "id": 156,
+    "shark species": "japanese angel",
+    "fact": "Japanese angel sharks are ambush predators that bury themselves in sand to surprise prey."
+  },
+  {
+    "id": 157,
+    "shark species": "california angel",
+    "fact": "California angel sharks lie motionless on the seafloor until fish swim close."
+  },
+  {
+    "id": 158,
+    "shark species": "australian angel",
+    "fact": "Australian angel sharks are critically endangered and live off southern Australia."
+  },
+  {
+    "id": 159,
+    "shark species": "argentine angel",
+    "fact": "Argentine angel sharks are deepwater bottom-dwellers in South American waters."
+  },
+  {
+    "id": 160,
+    "shark species": "burmese bamboo",
+    "fact": "Burmese bamboo sharks are small reef dwellers with distinct banding."
+  },
+  {
+    "id": 161,
+    "shark species": "broadgill catshark",
+    "fact": "Broadgill catsharks get their name from their wide gill openings."
+  },
+  {
+    "id": 162,
+    "shark species": "spined pygmy",
+    "fact": "Spined pygmy sharks glow in the dark and are among the smallest shark species."
+  },
+  {
+    "id": 163,
+    "shark species": "dwarf lanternshark",
+    "fact": "Dwarf lanternsharks hold the record as the smallest known shark, only 8 inches long."
+  },
+  {
+    "id": 164,
+    "shark species": "velvet belly",
+    "fact": "Velvet belly lanternsharks glow on their undersides to hide their silhouette from predators."
+  },
+  {
+    "id": 165,
+    "shark species": "green lanternshark",
+    "fact": "Green lanternsharks are deep-sea sharks with glowing organs along their bellies."
+  },
+  {
+    "id": 166,
+    "shark species": "blackbelly lanternshark",
+    "fact": "Blackbelly lanternsharks live in the Atlantic at depths of 1,500–2,000 feet."
+  },
+  {
+    "id": 167,
+    "shark species": "caribbean lanternshark",
+    "fact": "Caribbean lanternsharks are little-studied species from the deep western Atlantic."
+  },
+  {
+    "id": 168,
+    "shark species": "southern lanternshark",
+    "fact": "Southern lanternsharks are widely distributed in the southern hemisphere."
+  },
+  {
+    "id": 169,
+    "shark species": "brown lanternshark",
+    "fact": "Brown lanternsharks are found in the Indo-Pacific deep sea and can glow faintly."
+  },
+  {
+    "id": 170,
+    "shark species": "smallfin gulper",
+    "fact": "Smallfin gulper sharks are critically endangered deep-sea species targeted for oil in their livers."
+  },
+  {
+    "id": 171,
+    "shark species": "leafscale gulper",
+    "fact": "Leafscale gulper sharks are named for the shape of their scales, resembling tiny leaves."
+  },
+  {
+    "id": 172,
+    "shark species": "broadnose gulper",
+    "fact": "Broadnose gulper sharks live at depths of up to 1,200 meters."
+  },
+  {
+    "id": 173,
+    "shark species": "blacktail reef",
+    "fact": "Blacktail reef sharks are small reef-dwelling species common in the Indo-Pacific."
+  },
+  {
+    "id": 174,
+    "shark species": "tawny nurse",
+    "fact": "Tawny nurse sharks are docile bottom-dwellers that suck up prey with powerful mouths."
+  },
+  {
+    "id": 175,
+    "shark species": "ganges river",
+    "fact": "Ganges river sharks are critically endangered and live only in India’s Ganges River system."
+  },
+  {
+    "id": 176,
+    "shark species": "new guinea river",
+    "fact": "New Guinea river sharks live in both freshwater rivers and coastal seas of Papua New Guinea."
+  },
+  {
+    "id": 177,
+    "shark species": "pigeye",
+    "fact": "Pigeye sharks closely resemble bull sharks but have larger eyes."
+  },
+  {
+    "id": 178,
+    "shark species": "bali catshark",
+    "fact": "Bali catsharks are beautifully patterned species found around Bali, Indonesia."
+  },
+  {
+    "id": 179,
+    "shark species": "japanese sawshark",
+    "fact": "Japanese sawsharks have long, saw-like snouts with sharp teeth to slash prey."
+  },
+  {
+    "id": 180,
+    "shark species": "african sawshark",
+    "fact": "African sawsharks live along the southern African coast and use their snouts to detect prey in sand."
+  },
+  {
+    "id": 181,
+    "shark species": "common sawshark",
+    "fact": "Common sawsharks give live birth, unlike many fish with saw-like snouts."
+  },
+  {
+    "id": 182,
+    "shark species": "shortspine spurdog",
+    "fact": "Shortspine spurdogs are deepwater sharks that hunt squid and fish."
+  },
+  {
+    "id": 183,
+    "shark species": "longnose spurdog",
+    "fact": "Longnose spurdogs have extended snouts and live at depths of up to 1,500 meters."
+  },
+  {
+    "id": 184,
+    "shark species": "roughskin spurdog",
+    "fact": "Roughskin spurdogs have sandpaper-like skin due to their dense dermal denticles."
+  },
+  {
+    "id": 185,
+    "shark species": "greeneye spurdog",
+    "fact": "Greeneye spurdogs have glowing green eyes when viewed under light."
+  },
+  {
+    "id": 186,
+    "shark species": "little gulper",
+    "fact": "Little gulper sharks are small deep-sea species with large oil-filled livers."
+  },
+  {
+    "id": 187,
+    "shark species": "western gulper",
+    "fact": "Western gulper sharks live off western Australia and are rarely seen."
+  },
+  {
+    "id": 188,
+    "shark species": "indonesian gulper",
+    "fact": "Indonesian gulper sharks are overfished for liver oil and are endangered."
+  },
+  {
+    "id": 189,
+    "shark species": "southern dogfish",
+    "fact": "Southern dogfish are small bottom-dwelling sharks from Australian waters."
+  },
+  {
+    "id": 190,
+    "shark species": "whitecheek shark",
+    "fact": "Whitecheek sharks are harmless small sharks found in Indo-Pacific coastal waters."
+  },
+  {
+    "id": 191,
+    "shark species": "spot-tail shark",
+    "fact": "Spot-tail sharks get their name from the distinct dark spot on their tail fins."
+  },
+  {
+    "id": 192,
+    "shark species": "grey sharpnose",
+    "fact": "Grey sharpnose sharks are common in Southeast Asia and are small coastal species."
+  },
+  {
+    "id": 193,
+    "shark species": "milk shark",
+    "fact": "Milk sharks are named for the white color of their meat when cooked."
+  },
+  {
+    "id": 194,
+    "shark species": "graceful shark",
+    "fact": "Graceful sharks are slender species found in the Indian Ocean."
+  },
+  {
+    "id": 195,
+    "shark species": "sliteye shark",
+    "fact": "Sliteye sharks have narrow eyes adapted for deep-water living."
+  },
+  {
+    "id": 196,
+    "shark species": "bignose shark",
+    "fact": "Bignose sharks get their name from their large, rounded snouts."
+  },
+  {
+    "id": 197,
+    "shark species": "whitefin shark",
+    "fact": "Whitefin sharks are poorly studied species from deep Indo-Pacific waters."
+  },
+  {
+    "id": 198,
+    "shark species": "crocodile shark",
+    "fact": "Crocodile sharks are small but powerful predators that live in deep tropical oceans."
+  },
+  {
+    "id": 199,
+    "shark species": "broadfin shark",
+    "fact": "Broadfin sharks are rare deepwater sharks with large pectoral fins."
+  },
+  {
+    "id": 200,
+    "shark species": "false catshark",
+    "fact": "False catsharks have wide, flat heads and are found in very deep waters."
+  },
+  {
+    "id": 201,
+    "shark species": "rough longnose dogfish",
+    "fact": "Rough longnose dogfish live in the deep Pacific Ocean and have elongated snouts."
+  },
+  {
+    "id": 202,
+    "shark species": "black dogfish",
+    "fact": "Black dogfish are common deepwater sharks often caught as bycatch."
+  },
+  {
+    "id": 203,
+    "shark species": "harrison’s dogfish",
+    "fact": "Harrison’s dogfish are critically endangered sharks off Australia’s east coast."
+  },
+  {
+    "id": 204,
+    "shark species": "greenland sleeper",
+    "fact": "Greenland sleeper sharks can live for over 400 years, making them the longest-lived vertebrates."
+  },
+  {
+    "id": 205,
+    "shark species": "pacific sleeper",
+    "fact": "Pacific sleeper sharks are huge deep-sea predators that grow over 20 feet long."
+  },
+  
+  {
+    "id": 206,
+    "shark species": "atlantic sleeper",
+    "fact": "Atlantic sleeper sharks are sluggish deepwater species closely related to Greenland sharks."
+  },
+  {
+    "id": 207,
+    "shark species": "southern sleeper",
+    "fact": "Southern sleeper sharks live in cold waters of the Southern Hemisphere."
+  },
+  {
+    "id": 208,
+    "shark species": "northern sawtail",
+    "fact": "Northern sawtail catsharks are rarely seen deepwater sharks with distinctive fin shapes."
+  },
+  {
+    "id": 209,
+    "shark species": "spotted gulper",
+    "fact": "Spotted gulper sharks have patterns of light spots across their bodies."
+  },
+  {
+    "id": 210,
+    "shark species": "dusky smoothhound",
+    "fact": "Dusky smoothhounds are small bottom-feeding sharks common along the U.S. east coast."
+  },
+  {
+    "id": 211,
+    "shark species": "florida smoothhound",
+    "fact": "Florida smoothhounds are endemic to the Gulf of Mexico and Florida waters."
+  },
+  {
+    "id": 212,
+    "shark species": "mustelus antarcticus",
+    "fact": "Also called gummy sharks, these are commercially fished in Australia for food."
+  },
+  {
+    "id": 213,
+    "shark species": "african smoothhound",
+    "fact": "African smoothhounds are found along southern Africa and feed mainly on crustaceans."
+  },
+  {
+    "id": 214,
+    "shark species": "white-spotted smoothhound",
+    "fact": "White-spotted smoothhounds are named for the bright specks scattered across their bodies."
+  },
+  {
+    "id": 215,
+    "shark species": "narrowfin smoothhound",
+    "fact": "Narrowfin smoothhounds have thin pectoral fins adapted for maneuvering near the seafloor."
+  },
+  {
+    "id": 216,
+    "shark species": "starry smoothhound",
+    "fact": "Starry smoothhounds are covered in tiny white star-like spots."
+  },
+  {
+    "id": 217,
+    "shark species": "brown smoothhound",
+    "fact": "Brown smoothhounds are small coastal sharks often found in bays."
+  },
+  {
+    "id": 218,
+    "shark species": "yellowspotted catshark",
+    "fact": "Yellowspotted catsharks are deepwater species with bright yellow markings."
+  },
+  {
+    "id": 219,
+    "shark species": "japanese topeshark",
+    "fact": "Japanese topesharks are coastal predators found off Japan and Korea."
+  },
+  {
+    "id": 220,
+    "shark species": "hooktooth shark",
+    "fact": "Hooktooth sharks are rare deepwater species with long, hooked teeth."
+  },
+  {
+    "id": 221,
+    "shark species": "sharpfin houndshark",
+    "fact": "Sharpfin houndsharks have sharply pointed fins and are found in South America."
+  },
+  {
+    "id": 222,
+    "shark species": "mexican hornshark",
+    "fact": "Mexican hornsharks are small bottom dwellers related to the California hornshark."
+  },
+  {
+    "id": 223,
+    "shark species": "ornate wobbegong",
+    "fact": "Ornate wobbegongs have intricate skin patterns that blend perfectly with reefs."
+  },
+  {
+    "id": 224,
+    "shark species": "northern wobbegong",
+    "fact": "Northern wobbegongs are ambush predators that rest motionless on seafloors."
+  },
+  {
+    "id": 225,
+    "shark species": "spotted wobbegong",
+    "fact": "Spotted wobbegongs are covered in distinctive leopard-like blotches."
+  },
+  {
+    "id": 226,
+    "shark species": "tasseled wobbegong",
+    "fact": "Tasseled wobbegongs have elaborate frilly skin flaps around their mouths."
+  },
+  {
+    "id": 227,
+    "shark species": "gulf wobbegong",
+    "fact": "Gulf wobbegongs are found in northern Australia and are well camouflaged."
+  },
+  {
+    "id": 228,
+    "shark species": "network wobbegong",
+    "fact": "Network wobbegongs have interconnected markings that look like a net."
+  },
+  {
+    "id": 229,
+    "shark species": "indonesian wobbegong",
+    "fact": "Indonesian wobbegongs are newly described species from Indonesian waters."
+  },
+  {
+    "id": 230,
+    "shark species": "giant wobbegong",
+    "fact": "Giant wobbegongs can grow up to 10 feet long, the largest of their kind."
+  },
+  {
+    "id": 231,
+    "shark species": "speckled carpet",
+    "fact": "Speckled carpet sharks have irregular markings that make them look like reef patterns."
+  },
+  {
+    "id": 232,
+    "shark species": "zebra bullhead",
+    "fact": "Zebra bullhead sharks have striped juvenile patterns that fade as they age."
+  },
+  {
+    "id": 233,
+    "shark species": "portuguese dogfish",
+    "fact": "Portuguese dogfish are deepwater sharks targeted for liver oil."
+  },
+  {
+    "id": 234,
+    "shark species": "knifetooth dogfish",
+    "fact": "Knifetooth dogfish are named for their razor-sharp, knife-like teeth."
+  },
+  {
+    "id": 235,
+    "shark species": "roughskin dogfish",
+    "fact": "Roughskin dogfish have rough, sandpaper-like skin from thick dermal denticles."
+  },
+  {
+    "id": 236,
+    "shark species": "smooth lanternshark",
+    "fact": "Smooth lanternsharks lack the heavy denticles found in other lanternsharks."
+  },
+  {
+    "id": 237,
+    "shark species": "black lanternshark",
+    "fact": "Black lanternsharks are deepwater bioluminescent sharks found in the Pacific."
+  },
+  {
+    "id": 238,
+    "shark species": "brown lanternshark",
+    "fact": "Brown lanternsharks glow faintly to hide from predators in the deep sea."
+  },
+  {
+    "id": 239,
+    "shark species": "frilled shark",
+    "fact": "Frilled sharks are living fossils with eel-like bodies and six pairs of gills."
+  },
+  {
+    "id": 240,
+    "shark species": "southern frilled",
+    "fact": "Southern frilled sharks were described as a separate species in 2009."
+  },
+  {
+    "id": 241,
+    "shark species": "striped catshark",
+    "fact": "Striped catsharks have bold vertical stripes running down their bodies."
+  },
+  {
+    "id": 242,
+    "shark species": "humpback catshark",
+    "fact": "Humpback catsharks have arched backs and live in deep waters."
+  },
+  {
+    "id": 243,
+    "shark species": "tiger catshark",
+    "fact": "Tiger catsharks are patterned with vertical bars, much like tiger sharks."
+  },
+  {
+    "id": 244,
+    "shark species": "pajama catshark",
+    "fact": "Pajama catsharks are endemic to South Africa and have striped bodies."
+  },
+  {
+    "id": 245,
+    "shark species": "leopard catshark",
+    "fact": "Leopard catsharks are covered in leopard-like spots and blotches."
+  },
+  {
+    "id": 246,
+    "shark species": "narrowtail catshark",
+    "fact": "Narrowtail catsharks have slim tails compared to other catsharks."
+  },
+  {
+    "id": 247,
+    "shark species": "white saddled catshark",
+    "fact": "White saddled catsharks have distinctive pale saddle-like markings."
+  },
+  {
+    "id": 248,
+    "shark species": "rusty catshark",
+    "fact": "Rusty catsharks are named for their reddish-brown coloration."
+  },
+  {
+    "id": 249,
+    "shark species": "izak catshark",
+    "fact": "Izak catsharks are one of the most abundant catsharks in South African waters."
+  },
+  {
+    "id": 250,
+    "shark species": "blackspotted catshark",
+    "fact": "Blackspotted catsharks are patterned with small black dots."
+  },
+  {
+    "id": 251,
+    "shark species": "yellowspotted catshark",
+    "fact": "Yellowspotted catsharks live in the deep western Indian Ocean."
+  },
+  {
+    "id": 252,
+    "shark species": "freckled catshark",
+    "fact": "Freckled catsharks are covered with speckled patterns like freckles."
+  },
+  {
+    "id": 253,
+    "shark species": "african catshark",
+    "fact": "African catsharks are bottom-dwelling species with little-known habits."
+  },
+  {
+    "id": 254,
+    "shark species": "natal shyshark",
+    "fact": "Natal shysharks curl into a donut shape to protect themselves."
+  },
+  {
+    "id": 255,
+    "shark species": "east african catshark",
+    "fact": "East African catsharks live along the coasts of Kenya and Tanzania."
+  }
+]

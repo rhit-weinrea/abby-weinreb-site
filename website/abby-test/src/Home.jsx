@@ -1,61 +1,176 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
-import Navbar from "./components/Navbar/Navbar.jsx";
-import profPhoto from "./resources/proff_photo.jpg";
+import { getSharkFactOfDay } from './hooks/getSharkFactOfDay';
 
 export default function Home() {
+  const { fact, loading, error } = getSharkFactOfDay();
+
   return (
     <div className={styles.body}>
+      {/* Body Sharks */}
+      <img src="/sharks/16.svg" alt="" className={styles.bodyShark1} />
+      <img src="/sharks/17.svg" alt="" className={styles.bodyShark2} />
+      <img src="/sharks/18.svg" alt="" className={styles.bodyShark3} />
+      <img src="/sharks/16.svg" alt="" className={styles.bodyShark4} />
+      <img src="/sharks/12.svg" alt="" className={styles.bodyShark5} />
+      <img src="/sharks/13.svg" alt="" className={styles.bodyShark6} />
+      <img src="/sharks/14.svg" alt="" className={styles.bodyShark7} />
+      <img src="/sharks/17.svg" alt="" className={styles.bodyShark8} />
+      <img src="/sharks/18.svg" alt="" className={styles.bodyShark9} />
+      <img src="/sharks/16.svg" alt="" className={styles.bodyShark10} />
+      
       <main className={styles.main}>
-        <section id="about" tabIndex={-1} className={styles.aboutSection}>
-          <h2>About Me</h2>
-          <img
-            src={profPhoto}
-            alt="Portrait of Abby Weinreb"
-            className={styles.profileImg}
-          />
-          <p>
-            Hello! I'm Abby Weinreb. I am a current graduate student at Rose-Hulman Institute of Technology and I have a BS in Software Engineering. I focus on creating inclusive, accessible, and fun front-end experiences. I believe technology should empower everyone, and I strive to make accessible technology for every user.
-          </p>
-        </section>
-        <section id="projects" tabIndex={-1}>
-          <h2>Featured Projects</h2>
-          <ul>
-            <li>
-              <strong>Personal Website (where you are right now!)</strong> – A showcase of my work, built with accessibility in mind. This project is new and ongoing and will be getting regular updates!
-            </li>
-            <li>
-              <strong>reTHink Mobile App + Admin Panel</strong> – My senior capstone project: a Flutter app to promote sustainable actions, with a web admin panel for content management.
-            </li>
-            <li>
-              <strong>Genetic Algorithm Research Project</strong> – One of my first real projects! Revisted two years later to refactor and refine.
-            </li>
+        <div className={styles.topstuff} >
+        <section className={styles.headerSection}>
 
-          </ul>
-          <div style={{ marginTop: "1rem" }}>
-            <Link to="/projects" className={styles.navLink}>
-              View All Projects
-            </Link>
+          <img
+            src="/abby.svg"
+            alt="Portrait of Abby Weinreb, Software Engineer"
+            className={styles.largeProfileImg}
+          />
+          <div className={styles.headerContent}>
+            <h1 className={styles.bubbleName}>Abby Weinreb</h1>
+            <p className={styles.bubbleTitle}>Software Engineer</p>
+          </div>
+                    <div className={styles.sharkFact}>
+            <h3 className={styles.factTitle}>Shark Fact of the Day</h3>
+            {loading && <span aria-live="polite">Loading shark fact...</span>}
+            {error && <span aria-live="assertive" role="alert">Error: {error.message}</span>}
+            {fact && !loading && !error && (
+              <p aria-live="polite">
+                {typeof fact === 'string' ? fact : fact.fact || fact.text || JSON.stringify(fact)}
+              </p>
+            )}
           </div>
         </section>
-        <br></br>
-        <section id="contact" tabIndex={-1}>
-          <h2>Contact</h2>
-          <form action="https://api.web3forms.com/submit" method="POST" aria-label="Contact form">
-            <input type="hidden" name="access_key" value="054547c9-72d4-4350-ab1d-ecc675bdc20b" />
-            <label htmlFor="name">Name</label><br />
-            <input id="name" name="name" type="text" required aria-required="true" /><br /><br />
-            <label htmlFor="email">Email</label><br />
-            <input id="email" name="email" type="email" required aria-required="true" /><br /><br />
-            <label htmlFor="message">Message</label><br />
-            <textarea id="message" name="message" rows="4" required aria-required="true"></textarea><br /><br />
-            <input type="checkbox" name="botcheck" className={styles.check}></input>
-            <button type="submit">Send</button>
-          </form>
+        </div>
+        {/* About Section */}
+        <section className={`${styles.pageSection} ${styles.sectionLeft} ${styles.aboutSection}`}>
+          <div className={styles.sectionContent}>
+            <div className={styles.sectionText}>
+              <h2 className={styles.bubbleHeader}>About Me</h2>
+              <div className={styles.highlightCards}>
+                <div className={styles.highlightCard}>
+                  <span className={styles.cardValue}>MS + BS</span>
+                  <span className={styles.cardLabel}>Degrees</span>
+                </div>
+                <div className={styles.highlightCard}>
+                  <span className={styles.cardValue}>2</span>
+                  <span className={styles.cardLabel}>Internships</span>
+                </div>
+                <div className={styles.highlightCard}>
+                  <span className={styles.cardValue}>Summer 2026</span>
+                  <span className={styles.cardLabel}>Availability</span>
+                </div>
+              </div>
+              <p className={styles.sectionDescription}>
+                <strong>Rose-Hulman Engineering Management graduate student</strong> with hands-on experience 
+                at the <strong>Indiana General Assembly</strong> and <strong>Rose-Hulman Ventures</strong>. 
+                I specialize in <em>user-centered design</em> and building inclusive technology that empowers everyone.
+              </p>
+            </div>
+            <div className={styles.sectionButtonContainer}>
+              <Link to="/about" className="uniform-btn">
+                Discover My Journey
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Projects Section */}
+        <section className={`${styles.pageSection} ${styles.sectionRight} ${styles.projectsSection}`}>
+          <div className={styles.sectionContent}>
+            <div className={styles.sectionText}>
+              <h2 className={styles.bubbleHeader}>Featured Projects</h2>
+              <div className={styles.highlightCards}>
+                <div className={styles.highlightCard}>
+                  <span className={styles.cardValue}>reTHink App</span>
+                  <span className={styles.cardLabel}>Flutter sustainability app with admin panel</span>
+                </div>
+                <div className={styles.highlightCard}>
+                  <span className={styles.cardValue}>Genetic Algorithm</span>
+                  <span className={styles.cardLabel}>Refactored with modern SDLC principles</span>
+                </div>
+              </div>
+              <p className={styles.sectionDescription}>
+                Explore my portfolio showcasing React, Flutter, .NET, and innovative problem-solving.
+              </p>
+            </div>
+            <div className={styles.sectionButtonContainer}>
+              <Link to="/projects" className="uniform-btn">
+                Explore All Projects
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact Section */}
+        <section className={`${styles.pageSection} ${styles.sectionLeft} ${styles.contactSection}`}>
+          <div className={styles.sectionContent}>
+            <div className={styles.sectionText}>
+              <h2 className={styles.bubbleHeader}>Let's Connect!</h2>
+              <div className={styles.highlightCards}>
+                <div className={styles.highlightCard}>
+                  <span className={styles.cardValue}>Available</span>
+                  <span className={styles.cardLabel}>Open for Summer 2026 Opportunities</span>
+                </div>
+                <div className={styles.highlightCard}>
+                  <span className={styles.cardValue}>Responsive</span>
+                  <span className={styles.cardLabel}>Usually responds within 24 hours</span>
+                </div>
+                <div className={styles.highlightCard}>
+                  <span className={styles.cardValue}>Flexible</span>
+                  <span className={styles.cardLabel}>Remote & hybrid opportunities welcome</span>
+                </div>
+              </div>
+              <p className={styles.sectionDescription}>
+                Ready to discuss <strong>exciting opportunities?</strong> Whether it's job opportunities, 
+                collaboration projects, or just a tech chat, I'd love to hear from you! 
+                <strong> Currently seeking full-time employment starting Summer 2026</strong> in software development.
+              </p>
+            </div>
+            <div className={styles.sectionButtonContainer}>
+              <Link to="/contact" className="uniform-btn">
+                Start a Conversation
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Changelog Section */}
+        <section className={`${styles.pageSection} ${styles.sectionRight} ${styles.changelogSection}`}>
+          <div className={styles.sectionContent}>
+            <div className={styles.sectionText}>
+              <h2 className={styles.bubbleHeader}>Behind the Scenes</h2>
+              <div className={styles.highlightCards}>
+                <div className={styles.highlightCard}>
+                  <span className={styles.cardValue}>New</span>
+                  <span className={styles.cardLabel}>Ocean theme with animated navbar</span>
+                </div>
+                <div className={styles.highlightCard}>
+                  <span className={styles.cardValue}>Update</span>
+                  <span className={styles.cardLabel}>Enhanced project card layouts</span>
+                </div>
+                <div className={styles.highlightCard}>
+                  <span className={styles.cardValue}>Improvement</span>
+                  <span className={styles.cardLabel}>Mobile responsiveness upgrades</span>
+                </div>
+              </div>
+              <p className={styles.sectionDescription}>
+                Curious about my development process? Track the evolution of this portfolio, 
+                from <strong>design iterations</strong> to <strong>feature additions</strong>. 
+                See the thought process behind every update!
+              </p>
+            </div>
+            <div className={styles.sectionButtonContainer}>
+              <Link to="/changelog" className="uniform-btn">
+                See My Progress
+              </Link>
+            </div>
+          </div>
         </section>
       </main>
-     
     </div>
   );
 }

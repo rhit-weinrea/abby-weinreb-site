@@ -47,7 +47,7 @@ export default function Project({
         {details && (
           <>
             <button
-              className={styles.readMoreBtn}
+              className="uniform-btn"
               onClick={() => setShowDetails((v) => !v)}
               aria-expanded={showDetails}
               aria-controls={`details-${title.replace(/\s+/g, "-")}`}
@@ -70,18 +70,25 @@ export default function Project({
         <div
           className={styles.modal}
           tabIndex={-1}
-          onClick={() => setModalImg(null)}
+          onClick={(e) => {
+            if (e.target === e.currentTarget) setModalImg(null);
+          }}
           onKeyDown={e => {
             if (e.key === "Escape") setModalImg(null);
           }}
           aria-modal="true"
           role="dialog"
+          aria-labelledby="modal-title"
+          aria-describedby="modal-desc"
         >
+          <h3 id="modal-title" className="sr-only">Enlarged project image</h3>
+          <p id="modal-desc" className="sr-only">Press Escape or click the close button to close this modal</p>
           <img src={modalImg} alt="Enlarged project screenshot" className={styles.modalImg} />
           <button
             className={styles.closeModal}
             onClick={() => setModalImg(null)}
-            aria-label="Close image"
+            aria-label="Close image modal"
+            autoFocus
           >
             ×
           </button>

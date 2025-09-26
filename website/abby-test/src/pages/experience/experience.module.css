@@ -14,7 +14,7 @@
   overflow: hidden;
 }
 
-/* About Page Body Sharks */
+/* Experience Page Body Sharks */
 .bodyShark1 {
   position: absolute;
   width: 150px;
@@ -23,7 +23,7 @@
   left: -150px;
   opacity: 0.68;
   z-index: -2;
-  animation: aboutSwimRight 42s linear infinite;
+  animation: experienceSwimRight 42s linear infinite;
   transform: scaleX(-1);
   filter: blur(0.5px);
 }
@@ -36,7 +36,7 @@
   right: -120px;
   opacity: 0.6;
   z-index: -2;
-  animation: aboutSwimLeft 38s linear infinite;
+  animation: experienceSwimLeft 38s linear infinite;
   animation-delay: 12s;
   filter: blur(0.5px);
 }
@@ -49,7 +49,7 @@
   left: -170px;
   opacity: 0.75;
   z-index: -2;
-  animation: aboutSwimRight 45s linear infinite;
+  animation: experienceSwimRight 45s linear infinite;
   animation-delay: 25s;
   transform: scaleX(-1);
   filter: blur(0.5px);
@@ -63,7 +63,7 @@
   right: -105px;
   opacity: 0.55;
   z-index: -2;
-  animation: aboutSwimLeft 32s linear infinite;
+  animation: experienceSwimLeft 32s linear infinite;
   animation-delay: 8s;
   filter: blur(0.5px);
 }
@@ -76,7 +76,7 @@
   left: -135px;
   opacity: 0.63;
   z-index: -2;
-  animation: aboutSwimRight 40s linear infinite;
+  animation: experienceSwimRight 40s linear infinite;
   animation-delay: 18s;
   transform: scaleX(-1);
   filter: blur(0.5px);
@@ -90,7 +90,7 @@
   right: -115px;
   opacity: 0.58;
   z-index: -2;
-  animation: aboutSwimLeft 36s linear infinite;
+  animation: experienceSwimLeft 36s linear infinite;
   animation-delay: 22s;
   filter: blur(0.5px);
 }
@@ -103,7 +103,7 @@
   right: -140px;
   opacity: 0.65;
   z-index: -2;
-  animation: aboutSwimLeft 44s linear infinite;
+  animation: experienceSwimLeft 44s linear infinite;
   animation-delay: 30s;
   filter: blur(0.5px);
 }
@@ -116,7 +116,7 @@
   left: -160px;
   opacity: 0.7;
   z-index: -2;
-  animation: aboutSwimRight 48s linear infinite;
+  animation: experienceSwimRight 48s linear infinite;
   animation-delay: 35s;
   transform: scaleX(-1);
   filter: blur(0.5px);
@@ -130,13 +130,13 @@
   right: -125px;
   opacity: 0.6;
   z-index: -2;
-  animation: aboutSwimLeft 41s linear infinite;
+  animation: experienceSwimLeft 41s linear infinite;
   animation-delay: 40s;
   filter: blur(0.5px);
 }
 
-/* About Page Shark Animations */
-@keyframes aboutSwimRight {
+/* Experience Page Shark Animations */
+@keyframes experienceSwimRight {
   from {
     left: -100px;
   }
@@ -145,7 +145,7 @@
   }
 }
 
-@keyframes aboutSwimLeft {
+@keyframes experienceSwimLeft {
   from {
     right: -100px;
   }
@@ -180,59 +180,11 @@
   gap: 1.5rem;
 }
 
-.profileImg {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid transparent;
-  background: linear-gradient(45deg, rgba(168, 85, 247, 0.8), rgba(6, 182, 212, 0.8), rgba(34, 197, 94, 0.8)) border-box;
-  background-clip: padding-box, border-box;
-  box-shadow: 
-    0 8px 25px rgba(0, 0, 0, 0.15),
-    0 0 30px rgba(168, 85, 247, 0.3),
-    0 0 60px rgba(6, 182, 212, 0.2);
-  position: relative;
-  /* Remove constant floating animation */
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-5px); }
-}
-
-.title {
-  color: #f1f5f9;
-  font-family: 'Inter', system-ui, sans-serif;
-  margin: 0;
-  font-size: 2.5rem;
-  font-weight: 700;
-  background: linear-gradient(135deg, #e2e8f0 0%, #3b82f6 25%, #60a5fa 50%, #93c5fd 75%, #dbeafe 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  transition: filter 0.3s ease;
-}
-
-.title:hover {
-  animation: glow 1.5s ease-in-out;
-}
-
-@keyframes glow {
-  0% { 
-    filter: drop-shadow(0 0 10px rgba(59, 130, 246, 0.4));
-  }
-  100% { 
-    filter: drop-shadow(0 0 20px rgba(96, 165, 250, 0.5));
-  }
-}
-
 .bioSection {
   margin-bottom: 3rem;
   position: relative;
   z-index: 2;
 }
-
 
 .bioText {
   font-size: 1.3rem;
@@ -251,11 +203,11 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.interestsSection {
+.skillsSection {
   margin-bottom: 3rem;
 }
 
-.interestsSection h2 {
+.skillsSection h2 {
   color: #f1f5f9;
   font-size: 1.8rem;
   font-weight: 600;
@@ -263,7 +215,7 @@
   text-align: center;
 }
 
-.interestsGrid {
+.skillsGrid {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -271,7 +223,7 @@
   gap: 1.5rem;
 }
 
-.interestCategory {
+.skillCategory {
   background: rgba(51, 65, 85, 0.6);
   border: 1px solid rgba(148, 163, 184, 0.2);
   border-radius: 1.5rem;
@@ -281,46 +233,46 @@
   min-width: 15rem;
 }
 
-.interestCategory:hover {
+.skillCategory:hover {
   transform: translateY(-4px);
   border-color: rgba(168, 85, 247, 0.3);
   box-shadow: 0 8px 25px rgba(168, 85, 247, 0.2);
 }
 
-.interestCategory h3 {
+.skillCategory h3 {
   color: #f1f5f9;
   font-size: 1.2rem;
   font-weight: 600;
   margin: 0 0 1rem 0;
 }
 
-.interestCategory ul {
+.skillCategory ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.interestCategory li {
-  color: #a7aaad; /* Darker gray for better contrast */
+.skillCategory li {
+  color: #a7aaad;
   padding: 0.3rem 0;
   position: relative;
   padding-left: 1rem;
 }
 
-.interestCategory li::before {
+.skillCategory li::before {
   content: '•';
   color: #a855f7;
   position: absolute;
   left: 0;
 }
 
-.storiesSection {
+.experienceSection {
   width: fit-content;
   margin: auto;
   margin-bottom: 3rem;
 }
 
-.storiesSection h2 {
+.experienceSection h2 {
   color: #f1f5f9;
   font-size: 1.8rem;
   font-weight: 600;
@@ -328,13 +280,12 @@
   text-align: center;
 }
 
-.storiesGrid {
+.experienceGrid {
   display: grid;
   gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
-.storyItem {
+.experienceItem {
   background: rgba(51, 65, 85, 0.6);
   border: 1px solid rgba(59, 130, 246, 0.2);
   border-radius: 1.5rem;
@@ -343,31 +294,61 @@
   transition: all 0.3s ease;
 }
 
-.storyItem:hover {
+.experienceItem:hover {
   transform: translateY(-4px);
   border-color: rgba(59, 130, 246, 0.4);
   box-shadow: 0 8px 25px rgba(59, 130, 246, 0.2);
 }
 
-.storyItem h3 {
+.experienceItem h3 {
   color: #3b82f6;
   font-size: 1.4rem;
   font-weight: 600;
+  margin: 0 0 0.5rem 0;
+}
+
+.role {
+  color: #e2e8f0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+}
+
+.duration {
+  color: #7c8fa3;
+  font-size: 0.9rem;
   margin: 0 0 1rem 0;
+  font-style: italic;
 }
 
-.storyText {
+.achievements {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.achievements li {
   color: #cbd5e1;
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 1.5rem;
   line-height: 1.6;
-  font-size: 1rem;
 }
 
-.valuesSection {
+.achievements li::before {
+  content: '▸';
+  color: #60a5fa;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.educationSection {
   width: fit-content;
   margin: 3rem auto;
 }
 
-.valuesSection h2 {
+.educationSection h2 {
   color: #f1f5f9;
   font-size: 1.8rem;
   font-weight: 600;
@@ -375,13 +356,13 @@
   text-align: center;
 }
 
-.valuesGrid {
+.educationGrid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
-.valueItem {
+.educationItem {
   background: rgba(51, 65, 85, 0.6);
   border: 1px solid rgba(6, 182, 212, 0.2);
   border-radius: 1.5rem;
@@ -390,32 +371,40 @@
   transition: all 0.3s ease;
 }
 
-.valueItem:hover {
+.educationItem:hover {
   transform: translateY(-4px);
   border-color: rgba(6, 182, 212, 0.4);
   box-shadow: 0 8px 25px rgba(6, 182, 212, 0.2);
 }
 
-.valueItem h3 {
+.educationItem h3 {
   color: #06b6d4;
   font-size: 1.3rem;
   font-weight: 600;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.5rem 0;
 }
 
-.valueText {
-  color: #cbd5e1;
-  font-size: 1rem;
+.degree {
+  color: #e2e8f0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0.25rem 0;
+}
+
+.coursework {
+  color: #7c8fa3;
+  font-size: 0.9rem;
+  margin: 0.75rem 0 0 0;
   line-height: 1.5;
 }
 
-.funFactsSection {
+.leadershipSection {
   margin-bottom: 3rem;
   width: fit-content;
   margin: 3rem auto;
 }
 
-.funFactsSection h2 {
+.leadershipSection h2 {
   color: #f1f5f9;
   font-size: 1.8rem;
   font-weight: 600;
@@ -423,13 +412,13 @@
   text-align: center;
 }
 
-.funFactsGrid {
+.leadershipGrid {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.funFactItem {
+.leadershipItem {
   background: rgba(51, 65, 85, 0.6);
   border: 1px solid rgba(168, 85, 247, 0.2);
   border-radius: 1.5rem;
@@ -438,23 +427,17 @@
   transition: all 0.3s ease;
 }
 
-.funFactItem:hover {
+.leadershipItem:hover {
   transform: translateY(-4px);
   border-color: rgba(168, 85, 247, 0.4);
   box-shadow: 0 8px 25px rgba(168, 85, 247, 0.2);
 }
 
-.funFactItem h3 {
+.leadershipItem h3 {
   color: #a855f7;
   font-size: 1.3rem;
   font-weight: 600;
-  margin: 0 0 1rem 0;
-}
-
-.funFactText {
-  color: #cbd5e1;
-  font-size: 1rem;
-  line-height: 1.5;
+  margin: 0 0 0.5rem 0;
 }
 
 .ctaSection {
@@ -464,7 +447,7 @@
 }
 
 .ctaSection p {
-  color: #7c8fa3; /* Darker gray for better contrast */
+  color: #7c8fa3;
   font-size: 1.1rem;
   margin-bottom: 2rem;
 }
@@ -476,74 +459,21 @@
   flex-wrap: wrap;
 }
 
-.primaryButton {
-  background: linear-gradient(135deg, rgba(168, 85, 247, 0.9) 0%, rgba(6, 182, 212, 0.9) 50%, rgba(34, 197, 94, 0.9) 100%);
-  color: #ffffff;
-  text-decoration: none;
-  padding: 0.8em 2em;
-  border-radius: 1rem;
-  font-weight: 600;
-  font-size: 1rem;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
-  overflow: hidden;
-  box-shadow: 
-    0 6px 20px rgba(168, 85, 247, 0.4),
-    0 0 30px rgba(6, 182, 212, 0.2);
-}
-
-.primaryButton:hover {
-  transform: translateY(-3px) scale(1.02);
-  box-shadow: 
-    0 12px 35px rgba(168, 85, 247, 0.5),
-    0 0 50px rgba(6, 182, 212, 0.3);
-  filter: brightness(1.1);
-}
-
-.secondaryButton {
-  background: rgba(51, 65, 85, 0.8);
-  color: #cbd5e1;
-  text-decoration: none;
-  padding: 0.8em 2em;
-  border-radius: 1rem;
-  font-weight: 500;
-  font-size: 1rem;
-  border: 1px solid rgba(148, 163, 184, 0.2);
-  backdrop-filter: blur(10px);
-  transition: all 0.3s ease;
-}
-
-.secondaryButton:hover {
-  background: rgba(59, 130, 246, 0.8);
-  color: #f8fafc;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.3);
-}
-
 @media (max-width: 768px) {
   .page {
     margin: 1rem;
     padding: 1.5rem;
   }
   
-  .title {
-    font-size: 2rem;
-  }
-  
   .bubbleHeader {
     font-size: 2rem;
   }
-
   
-  .valuesGrid {
+  .educationGrid {
     grid-template-columns: 1fr;
   }
   
-  .funFactsGrid {
-    grid-template-columns: 1fr;
-  }
-  
-  .storiesGrid {
+  .leadershipGrid {
     grid-template-columns: 1fr;
   }
   
@@ -552,9 +482,9 @@
     align-items: center;
   }
   
-  .storyItem,
-  .valueItem,
-  .funFactItem {
+  .experienceItem,
+  .educationItem,
+  .leadershipItem {
     padding: 1.5rem;
   }
 }

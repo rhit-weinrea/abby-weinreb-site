@@ -4,11 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="/shark.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <title>Abby Weinreb - Home</title>
     <meta name="description" content="Welcome to Abby Weinreb's personal website. Learn more about Abby, her work, and how to get in touch." />
   </head>
   <body>
+    <!-- Ocean background with bubbles -->
+    <div class="ocean">
+      <!-- Bubbles -->
+      <div class="bubble bubble--1"></div>
+      <div class="bubble bubble--2"></div>
+      <div class="bubble bubble--3"></div>
+      <div class="bubble bubble--4"></div>
+      <div class="bubble bubble--5"></div>
+      <div class="bubble bubble--6"></div>
+      <div class="bubble bubble--7"></div>
+      <div class="bubble bubble--8"></div>
+      <div class="bubble bubble--9"></div>
+      <div class="bubble bubble--10"></div>
+      <div class="bubble bubble--11"></div>
+      <div class="bubble bubble--12"></div>
+    </div>
+    
+    <!-- React app root -->
     <div id="root"></div>
+    
     <script type="module" src="/main.jsx"></script>
+    <script>
+      // Mouse tracking for gradient effect
+      document.addEventListener('mousemove', (e) => {
+        const x = (e.clientX / window.innerWidth) * 100;
+        const y = (e.clientY / window.innerHeight) * 100;
+        document.body.style.setProperty('--mouse-x', x + '%');
+        document.body.style.setProperty('--mouse-y', y + '%');
+      });
+    </script>
   </body>
 </html>
