@@ -60,6 +60,53 @@ export default function Projects() {
       <p className={styles.description}>Click on any images to get a better look!</p>
     <div className={styles.projects}> 
       <Project
+        title="Lo-Fi Balloon Orchestra"
+        description={
+          <>
+            <span>September 2025</span>
+            <ul>
+              <li>
+                Balloon Orchestra turns Windborne's global sounding balloons into a living, generative ensemble.
+              </li>
+              <li>
+                Choose one musical key for the whole piece, then stack multiple layers of that same harmony.
+              </li>
+              <li>
+                Each layer can listen to a different data hour from the constellation and has its own sound preset, tempo factor, and volume.
+              </li>
+            </ul>
+          </>
+        }
+        alt="Lo-Fi Balloon Orchestra web application interface"
+        details={
+          <>
+            <ul>
+              <li>
+                <strong>Generative Music:</strong> Creates ambient soundscapes based on real balloon data from around the world.
+              </li>
+              <li>
+                <strong>Interactive Layers:</strong> Users can customize different musical layers with unique sound presets and tempos.
+              </li>
+              <li>
+                <strong>Real-time Data:</strong> Integrates with Windborne's global balloon constellation for live atmospheric data.
+              </li>
+              <li>
+                <strong>Browser-based:</strong> Everything runs locally in your browser with no server required.
+              </li>
+              <li>
+                <strong>Accessible:</strong> Headphones recommended for the full immersive experience.
+              </li>
+              <li>
+                <strong>Try it out:</strong> <a href="https://app.abby-weinreb.workers.dev/" className={styles.link} target="_blank" rel="noopener noreferrer">https://app.abby-weinreb.workers.dev/</a>
+              </li>
+              <li>
+                <strong>Tech stack:</strong> React (frontend), Vite (build tool), Tone.js (audio synthesis), Windborne API (balloon data), CloudFlare Workers (hosting).
+              </li>
+            </ul>
+          </>
+        }
+      />
+      <Project
   title="Personal Website"
   description={
     <>

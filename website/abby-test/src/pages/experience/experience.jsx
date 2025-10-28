@@ -23,7 +23,7 @@ export default function Experience() {
 
             <section className={styles.bioSection} aria-labelledby="experience-heading">
                 <p className={styles.bioText}>
-                    I'm a Frontend Software Engineer with experience in full-stack development and a focus on user-centered design. I'm currently pursuing my Master's in Engineering Management at Rose-Hulman Institute of Technology, with availability starting June 2026.
+                    I'm a Software Engineer with experience in full-stack development and a focus on user-centered design. I'm currently pursuing my Master's in Engineering Management at Rose-Hulman Institute of Technology, and I'm open to full-time opportunities — I'm willing to discuss transitioning from my program early for the right role.
                 </p>
             </section>
 
@@ -145,7 +145,7 @@ export default function Experience() {
             </section>
 
             <section className={styles.ctaSection}>
-                <p>Available for opportunities starting June 2026. Let's connect!</p>
+                <p>Open to opportunities — willing to discuss flexible start dates and early transition from my Master's program for the right role. Let's connect!</p>
                 <div className={styles.ctaButtons}>
                     <Link to="/projects" className="uniform-btn">
                         View My Projects

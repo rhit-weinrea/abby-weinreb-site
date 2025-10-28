@@ -1,10 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import { getSharkFactOfDay } from './hooks/getSharkFactOfDay';
 
 export default function Home() {
   const { fact, loading, error } = getSharkFactOfDay();
+  const [imgLoaded, setImgLoaded] = useState(false);
+
+  // Enable non-critical animations after first paint / image load to avoid delaying LCP
+  useEffect(() => {
+    // Make animations start on the next rAF after mount (non-blocking)
+    requestAnimationFrame(() => {
+      // If the hero image already loaded, enable animations immediately
+      if (imgLoaded) {
+        document.documentElement.setAttribute('data-animations-ready', 'true');
+      } else {
+        // otherwise enable after a short timeout to avoid blocking initial paint
+        const t = setTimeout(() => document.documentElement.setAttribute('data-animations-ready', 'true'), 300);
+        return () => clearTimeout(t);
+      }
+    });
+  }, [imgLoaded]);
 
   return (
     <div className={styles.body}>
@@ -27,7 +43,13 @@ export default function Home() {
           <img
             src="/abby.svg"
             alt="Portrait of Abby Weinreb, Software Engineer"
-            className={styles.largeProfileImg}
+            className={imgLoaded ? `${styles.largeProfileImg} ${styles.profileAnimated}` : styles.largeProfileImg}
+            width={640}
+            height={640}
+            decoding="async"
+            loading="eager"
+            fetchpriority="high"
+            onLoad={() => setImgLoaded(true)}
           />
           <div className={styles.headerContent}>
             <h1 className={styles.bubbleName}>Abby Weinreb</h1>
@@ -50,17 +72,17 @@ export default function Home() {
           <div className={styles.sectionContent}>
             <div className={styles.sectionText}>
               <h2 className={styles.bubbleHeader}>About Me</h2>
-              <div className={styles.highlightCards}>
+                <div className={styles.highlightCards}>
                 <div className={styles.highlightCard}>
-                  <span className={styles.cardValue}>MS + BS</span>
-                  <span className={styles.cardLabel}>Degrees</span>
+                  <span className={styles.cardValue}>BS, Software Engineering</span>
+                  <span className={styles.cardLabel}>Enrolled in Masters program</span>
                 </div>
                 <div className={styles.highlightCard}>
                   <span className={styles.cardValue}>2</span>
                   <span className={styles.cardLabel}>Internships</span>
                 </div>
                 <div className={styles.highlightCard}>
-                  <span className={styles.cardValue}>Summer 2026</span>
+                  <span className={styles.cardValue}>Open</span>
                   <span className={styles.cardLabel}>Availability</span>
                 </div>
               </div>
@@ -110,10 +132,10 @@ export default function Home() {
           <div className={styles.sectionContent}>
             <div className={styles.sectionText}>
               <h2 className={styles.bubbleHeader}>Let's Connect!</h2>
-              <div className={styles.highlightCards}>
+                <div className={styles.highlightCards}>
                 <div className={styles.highlightCard}>
-                  <span className={styles.cardValue}>Available</span>
-                  <span className={styles.cardLabel}>Open for Summer 2026 Opportunities</span>
+                  <span className={styles.cardValue}>Open</span>
+                  <span className={styles.cardLabel}>Open to opportunities (flexible start)</span>
                 </div>
                 <div className={styles.highlightCard}>
                   <span className={styles.cardValue}>Responsive</span>
@@ -124,10 +146,10 @@ export default function Home() {
                   <span className={styles.cardLabel}>Remote & hybrid opportunities welcome</span>
                 </div>
               </div>
-              <p className={styles.sectionDescription}>
+                <p className={styles.sectionDescription}>
                 Ready to discuss <strong>exciting opportunities?</strong> Whether it's job opportunities, 
                 collaboration projects, or just a tech chat, I'd love to hear from you! 
-                <strong> Currently seeking full-time employment starting Summer 2026</strong> in software development.
+                <strong> I'm open to full-time roles and am willing to discuss transitioning from my Master's program early for the right position.</strong>
               </p>
             </div>
             <div className={styles.sectionButtonContainer}>

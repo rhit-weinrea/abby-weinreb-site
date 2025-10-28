@@ -205,18 +205,23 @@
   }
 }
 
+
 .largeProfileImg {
   width: 40rem;
   height: 40rem;
   display: block;
   margin: 0 auto;
   transition: all 0.3s ease;
-  animation: profileFloat 6s ease-in-out infinite;
+  /* animation deferred until image load / page ready */
 }
 
 .largeProfileImg:hover {
   transform: scale(1.05);
-  animation-play-state: paused;
+}
+
+/* animation class applied after image loads */
+.profileAnimated {
+  animation: profileFloat 6s ease-in-out infinite;
 }
 
 @keyframes profileFloat {
@@ -1517,6 +1522,49 @@ button[type="submit"]:focus {
     right: calc(100vw + 100px);
     transform: translateY(0px) scaleX(-1);
   }
+}
+
+/* Pause non-critical animations until page is ready to avoid blocking initial paint / LCP */
+/* We pause animations by default and enable them when the document has data-animations-ready="true" */
+
+.bodyShark1,
+.bodyShark2,
+.bodyShark3,
+.bodyShark4,
+.bodyShark5,
+.bodyShark6,
+.bodyShark7,
+.bodyShark8,
+.bodyShark9,
+.bodyShark10,
+.largeProfileImg,
+.sharkFact,
+.sharkIcon,
+.swimmingShark,
+.bubbleName,
+.bubbleTitle {
+  animation-play-state: paused;
+  /* prefer transform-based animations where possible */
+  will-change: transform, opacity;
+}
+
+[data-animations-ready="true"] .bodyShark1,
+[data-animations-ready="true"] .bodyShark2,
+[data-animations-ready="true"] .bodyShark3,
+[data-animations-ready="true"] .bodyShark4,
+[data-animations-ready="true"] .bodyShark5,
+[data-animations-ready="true"] .bodyShark6,
+[data-animations-ready="true"] .bodyShark7,
+[data-animations-ready="true"] .bodyShark8,
+[data-animations-ready="true"] .bodyShark9,
+[data-animations-ready="true"] .bodyShark10,
+[data-animations-ready="true"] .largeProfileImg.profileAnimated,
+[data-animations-ready="true"] .sharkFact,
+[data-animations-ready="true"] .sharkIcon,
+[data-animations-ready="true"] .swimmingShark,
+[data-animations-ready="true"] .bubbleName,
+[data-animations-ready="true"] .bubbleTitle {
+  animation-play-state: running;
 }
 
 /* Responsive shark fact */

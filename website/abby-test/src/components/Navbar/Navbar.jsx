@@ -11,7 +11,7 @@ export default function Navbar() {
       <header className={styles.header}>
            <nav className={styles.nav} aria-label="Main navigation">
       <Link to="/" className={currentPath === '/' ? styles.linkActive : styles.navLink} aria-current={currentPath === '/' ? 'page' : undefined}>Home</Link>
-      {/* <Link to="/about" className={currentPath === '/about' ? styles.linkActive : styles.navLink} aria-current={currentPath === '/about' ? 'page' : undefined}>About</Link> */}
+      <Link to="/about" className={currentPath === '/about' ? styles.linkActive : styles.navLink} aria-current={currentPath === '/about' ? 'page' : undefined}>About</Link>
       <Link to="/experience" className={currentPath === '/experience' ? styles.linkActive : styles.navLink} aria-current={currentPath === '/experience' ? 'page' : undefined}>Experience</Link>
       <Link to="/projects" className={currentPath === '/projects' ? styles.linkActive : styles.navLink} aria-current={currentPath === '/projects' ? 'page' : undefined}>Projects</Link>
       <Link to="/contact" className={currentPath === '/contact' ? styles.linkActive : styles.navLink} aria-current={currentPath === '/contact' ? 'page' : undefined}>Contact</Link>

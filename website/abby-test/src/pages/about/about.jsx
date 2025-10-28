@@ -38,7 +38,7 @@ export default function About() {
                 <h2 id="interests-heading" className={styles.bubbleHeader}>Interests & Hobbies</h2>
                 <div className={styles.interestsGrid}>
                     <div className={styles.interestCategory}>
-                        <h3>🦈 Ocean & Marine Life</h3>
+                        <h3>Ocean & Marine Life</h3>
                         <ul>
                             <li>Shark conservation advocacy</li>
                             <li>Marine biology fascination</li>
@@ -53,9 +53,9 @@ export default function About() {
                         <ul>
                             <li>Traveling</li>
                             <li>Trying local cuisines</li>
-                            <li>Photography</li>
+                            <li>Hanging out with my cat</li>
                             <li>Hiking & nature walks</li>
-                            <li>Cultural experiences</li>
+                            <li>Visiting Museums</li>
                             <li>Meeting new people</li>
                         </ul>
                     </div>
@@ -88,25 +88,25 @@ export default function About() {
                 <h2 id="stories-heading" className={styles.bubbleHeader}>My Journey</h2>
                 <div className={styles.storiesGrid}>
                     <div className={styles.storyItem}>
-                        <h3>🦈 Why Sharks?</h3>
+                        <h3>Why Sharks?</h3>
                         <p className={styles.storyText}>
                             My fascination with sharks began in childhood and has only grown stronger. These incredible creatures are so misunderstood! They're vital to ocean ecosystems and far more complex than most people realize. I love sharing shark facts and working to change negative perceptions about these amazing animals.
                         </p>
                     </div>
                     <div className={styles.storyItem}>
-                        <h3>💼 Leadership Through Service</h3>
+                        <h3>Leadership Through Service</h3>
                         <p className={styles.storyText}>
                             Leading Alpha Phi Omega has been one of my most rewarding experiences. There's something magical about bringing people together around a shared mission of service. We've organized everything from food drives to community cleanups, and seeing the positive impact we can make together never gets old.
                         </p>
                     </div>
                     <div className={styles.storyItem}>
-                        <h3>🌟 The Power of Connection</h3>
+                        <h3>The Power of Connection</h3>
                         <p className={styles.storyText}>
                             Whether I'm mentoring students, collaborating on projects, or just chatting with new people, I've learned that the best solutions come from genuine human connections. Technology is amazing, but it's the relationships we build that make everything worthwhile.
                         </p>
                     </div>
                     <div className={styles.storyItem}>
-                        <h3>🎯 Always Learning</h3>
+                        <h3>Always Learning</h3>
                         <p className={styles.storyText}>
                             I'm constantly curious about new things - from marine biology to design trends to emerging technologies. This curiosity drives me to keep growing, whether that's through formal education, personal projects, or just asking "what if?" whenever I encounter something new.
                         </p>
@@ -118,25 +118,25 @@ export default function About() {
                 <h2 className={styles.bubbleHeader}>What Drives Me</h2>
                 <div className={styles.valuesGrid}>
                     <div className={styles.valueItem}>
-                        <h3>🤝 Human-Centered Approach</h3>
+                        <h3>Human-Centered Approach</h3>
                         <p className={styles.valueText}>
                             I believe technology should serve people, not the other way around. Every project I work on starts with understanding real human needs and creating solutions that genuinely improve lives.
                         </p>
                     </div>
                     <div className={styles.valueItem}>
-                        <h3>🌱 Continuous Growth</h3>
+                        <h3>Continuous Growth</h3>
                         <p className={styles.valueText}>
                             Learning never stops! I'm always seeking new challenges, whether that's mastering a new programming language, understanding ocean conservation, or developing leadership skills.
                         </p>
                     </div>
                     <div className={styles.valueItem}>
-                        <h3>🌍 Making a Difference</h3>
+                        <h3>Making a Difference</h3>
                         <p className={styles.valueText}>
                             From community service to creating accessible technology, I'm passionate about using my skills and platform to contribute positively to the world around me.
                         </p>
                     </div>
                     <div className={styles.valueItem}>
-                        <h3>🎨 Creative Problem-Solving</h3>
+                        <h3>Creative Problem-Solving</h3>
                         <p className={styles.valueText}>
                             The best solutions often come from thinking outside the box. I love combining technical expertise with creative thinking to find innovative approaches to complex challenges.
                         </p>
@@ -146,7 +146,7 @@ export default function About() {
 
             
 
-            <section className={styles.funFactsSection}>
+            {/* <section className={styles.funFactsSection}>
                 <h2 className={styles.bubbleHeader}>Fun Facts About Me</h2>
                 <div className={styles.funFactsGrid}>
                     <div className={styles.funFactItem}>
@@ -174,7 +174,7 @@ export default function About() {
                         </p>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section className={styles.ctaSection}>
                 <p>Thanks for getting to know me a little better! I'd love to connect and hear your story too.</p>
